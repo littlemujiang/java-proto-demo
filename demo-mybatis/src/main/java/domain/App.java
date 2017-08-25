@@ -6,8 +6,8 @@ package domain;
 public class App {
 
     private int app_id;
-    private String app_name, description, created_at , modified_at;
-
+    private String app_name, description ;
+    private long created_at , modified_at;
 
     public int getApp_id() {
         return app_id;
@@ -33,19 +33,19 @@ public class App {
         this.description = description;
     }
 
-    public String getCreated_at() {
+    public long getCreated_at() {
         return created_at;
     }
 
-    public void setCreated_at(String created_at) {
+    public void setCreated_at(long created_at) {
         this.created_at = created_at;
     }
 
-    public String getModified_at() {
+    public long getModified_at() {
         return modified_at;
     }
 
-    public void setModified_at(String modified_at) {
+    public void setModified_at(long modified_at) {
         this.modified_at = modified_at;
     }
 }
