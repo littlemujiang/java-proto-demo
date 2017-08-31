@@ -6,14 +6,14 @@
 <mapper namespace="com.abcs.serviceMapper">
     <!-- 在select标签中编写查询的SQL语句， 设置select标签的id属性为getServiceById，id属性值必须是唯一的，不能够重复
     使用parameterType属性指明查询时使用的参数类型，resultType属性指明查询返回的结果集类型
-    resultType="me.abcs.domain.Service"就表示将查询结果封装成一个User类的对象返回
+    resultType="me.abcs.com.domain.Service"就表示将查询结果封装成一个User类的对象返回
     User类就是users表所对应的实体类
     -->
     <!--
         根据id查询得到一servicer对象
      -->
     <select id="getServiceById" parameterType="int"
-            resultType="domain.Service">
+            resultType="com.domain.Service">
         select * from service where service_id=#{service_id}
     </select>
 </mapper>

@@ -37,8 +37,8 @@
 
     </environments>
     <mappers>
-        <!--<mapper_classes resource="mapper_classes/ServiceMapper.xml"/>-->
-        <!--<mapper_classes class="mapper_classes.ServiceMapper"/>-->
-        <package name="mapper_classes"/>
+        <!--<com.mapper_classes resource="com.mapper_classes/ServiceMapper.xml"/>-->
+        <!--<com.mapper_classes class="com.mapper_classes.ServiceMapper"/>-->
+        <package name="com.mapper_classes"/>
     </mappers>
 </configuration>

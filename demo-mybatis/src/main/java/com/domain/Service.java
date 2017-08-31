@@ -1,4 +1,4 @@
-package domain;
+package com.domain;
 
 /**
  * Created by epcm on 2017/8/21.

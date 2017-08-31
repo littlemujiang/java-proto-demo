@@ -22,13 +22,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="code-corner" />
         <module name="demo-mybatis" />
-        <module name="mydemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="demo-mybatis" target="1.5" />
-      <module name="mydemo" target="1.5" />
+      <module name="code-corner" target="1.6" />
+      <module name="demo-mybatis" target="1.6" />
+      <module name="mydemo" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

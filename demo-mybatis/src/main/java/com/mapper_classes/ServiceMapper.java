@@ -1,6 +1,6 @@
-package mapper_classes;
+package com.mapper_classes;
 
-import domain.Service;
+import com.domain.Service;
 import org.apache.ibatis.annotations.Select;
 
 /**

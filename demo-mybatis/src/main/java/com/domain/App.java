@@ -1,4 +1,6 @@
-package domain;
+package com.domain;
+
+import java.sql.Timestamp;
 
 /**
  * Created by epcm on 2017/8/25.
@@ -6,8 +8,8 @@ package domain;
 public class App {
 
     private int app_id;
-    private String app_name, description ;
-    private long created_at , modified_at;
+    private String app_name, app_description;
+    private Timestamp created_at , modified_at;
 
     public int getApp_id() {
         return app_id;
@@ -25,27 +27,27 @@ public class App {
         this.app_name = app_name;
     }
 
-    public String getDescription() {
-        return description;
+    public String getApp_description() {
+        return app_description;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public void setApp_description(String app_description) {
+        this.app_description = app_description;
     }
 
-    public long getCreated_at() {
+    public Timestamp getCreated_at() {
         return created_at;
     }
 
-    public void setCreated_at(long created_at) {
+    public void setCreated_at(Timestamp created_at) {
         this.created_at = created_at;
     }
 
-    public long getModified_at() {
+    public Timestamp getModified_at() {
         return modified_at;
     }
 
-    public void setModified_at(long modified_at) {
+    public void setModified_at(Timestamp modified_at) {
         this.modified_at = modified_at;
     }
 }
