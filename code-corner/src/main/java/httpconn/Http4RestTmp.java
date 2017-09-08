@@ -4,6 +4,8 @@ package httpconn;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.web.client.RestTemplate;
+import thirdpart.HttpResult;
+import thirdpart.HttpUtils;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -11,7 +13,7 @@ import java.util.Map;
 /**
  * Created by epcm on 2017/8/29.
  */
-public class Http4Rest {
+public class Http4RestTmp {
 
     @Autowired
     private RestTemplate restTemplate;
@@ -54,7 +56,7 @@ public class Http4Rest {
 
     public static void main(String[] args) {
         // TODO �Զ����ɵķ������
-        Http4Rest h = new Http4Rest();
+        Http4RestTmp h = new Http4RestTmp();
 
         h.callHttp();
 

@@ -1,4 +1,4 @@
-package httpconn;
+package thirdpart;
 
 public class HttpResult {
 

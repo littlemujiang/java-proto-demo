@@ -14,6 +14,7 @@ import java.util.Map;
 /**
  * Created by mujiang on 2017/8/31.
  */
+
 public class EasyHttp {
 
     public final static String GET = "GET";
@@ -41,9 +42,13 @@ public class EasyHttp {
             OutputStream outputStream = connection.getOutputStream();
             DataOutputStream dataOutput = new DataOutputStream(outputStream);
 
-            if(method.equals(EasyHttp.POST) || method.equals(EasyHttp.PUT)){
+            if((method.equals(EasyHttp.POST) || method.equals(EasyHttp.PUT)) && bodyJSON != null ){
                 dataOutput.writeBytes(bodyJSON.toString());
             }
+
+//            if(bodyJSON != null ){
+//                dataOutput.writeBytes(bodyJSON.toString());
+//            }
 
             JSONObject result = executeRequest(connection, dataOutput);
 

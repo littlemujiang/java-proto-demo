@@ -1,5 +1,9 @@
 package authkeygen;
 
+
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+
 import java.sql.Timestamp;
 
 /**
@@ -7,7 +11,7 @@ import java.sql.Timestamp;
  */
 public class AuthKeyGen {
 
-
+    private static final Logger LOG = Logger.getLogger(AuthKeyGen.class);
 
     public String getAuthKey(String client_id, String client_secret) {
 
@@ -17,7 +21,11 @@ public class AuthKeyGen {
 
         String authInfo_md5 = SimpleMD5.getMD5(authInfo_plain, 16);
 
+        LOG.info(authInfo_md5);
+
         return authInfo_md5 + "." + now.getTime() ;
+
+
     }
 
 
@@ -26,6 +34,13 @@ public class AuthKeyGen {
 
     public static void main(String[] args) {
         // TODO �Զ����ɵķ������
+
+        String log4jPath = AuthKeyGen.class.getClassLoader().getResource("").getPath()+"log4j.properties";
+        PropertyConfigurator.configure(log4jPath);
+
+        System.out.println(log4jPath);
+
+        LOG.info("~~~~~~~~~~~~~");
 
         String appKey  = "3466927A3BE24B398C0D4E9AE9B66C14";
         System.out.println("MSP-AppKey : " + appKey);

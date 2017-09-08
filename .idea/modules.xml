@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/code-corner/code-corner.iml" filepath="$PROJECT_DIR$/code-corner/code-corner.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-mybatis/demo-mybatis.iml" filepath="$PROJECT_DIR$/demo-mybatis/demo-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-springdata/demo-springdata.iml" filepath="$PROJECT_DIR$/demo-springdata/demo-springdata.iml" />
       <module fileurl="file://$PROJECT_DIR$/mydemo.iml" filepath="$PROJECT_DIR$/mydemo.iml" />
     </modules>
   </component>
