@@ -1,0 +1,45 @@
+
+server:
+  port: 8002
+
+spring:
+  application:
+    name: user-service  # 应用名称必须保证全局唯一
+#  cloud:
+#    config:
+#      server:
+#        git:
+#          uri: https://github.com/littlemujiang/springcloud-config.git
+
+
+eureka:
+  instance:
+    preferIpAddress: true
+    metadata-map:
+      instanceId: ${spring.application.name}:${random.value}
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    Service-url:
+#      defaultZone: http://admin:123456@localhost:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/
+    healthcheck:
+      enabled: false
+
+
+
+management:
+  security:
+#    enabled: true
+    enabled: false
+security:
+  user:
+    name: admin
+    password: 123456
+
+mongodb:
+  serverAddress: localhost
+  source: demo
+  port: 27017
+  username:
+  password:

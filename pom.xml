@@ -11,9 +11,10 @@
 
 
     <modules>
+        <module>demo-assorted</module>
         <module>demo-mybatis</module>
-        <module>code-corner</module>
         <module>demo-springdata</module>
+        <module>user-services</module>
     </modules>
 
 

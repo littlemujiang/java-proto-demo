@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/code-corner/code-corner.iml" filepath="$PROJECT_DIR$/code-corner/code-corner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-assorted/code-corner.iml" filepath="$PROJECT_DIR$/demo-assorted/code-corner.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-mybatis/demo-mybatis.iml" filepath="$PROJECT_DIR$/demo-mybatis/demo-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-springdata/demo-springdata.iml" filepath="$PROJECT_DIR$/demo-springdata/demo-springdata.iml" />
       <module fileurl="file://$PROJECT_DIR$/mydemo.iml" filepath="$PROJECT_DIR$/mydemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-services/user-services.iml" filepath="$PROJECT_DIR$/user-services/user-services.iml" />
     </modules>
   </component>
 </project>

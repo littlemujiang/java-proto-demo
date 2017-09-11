@@ -13,6 +13,7 @@ public class AuthKeyGen {
 
     private static final Logger LOG = Logger.getLogger(AuthKeyGen.class);
 
+    //根据 client_id 和 client_secret生成 authkey
     public String getAuthKey(String client_id, String client_secret) {
 
         Timestamp now = new Timestamp(System.currentTimeMillis());
@@ -21,14 +22,12 @@ public class AuthKeyGen {
 
         String authInfo_md5 = SimpleMD5.getMD5(authInfo_plain, 16);
 
-        LOG.info(authInfo_md5);
+//        LOG.info(authInfo_md5);
 
         return authInfo_md5 + "." + now.getTime() ;
 
 
     }
-
-
 
 
 
@@ -40,7 +39,7 @@ public class AuthKeyGen {
 
         System.out.println(log4jPath);
 
-        LOG.info("~~~~~~~~~~~~~");
+//        LOG.info("~~~~~~~~~~~~~");
 
         String appKey  = "3466927A3BE24B398C0D4E9AE9B66C14";
         System.out.println("MSP-AppKey : " + appKey);
