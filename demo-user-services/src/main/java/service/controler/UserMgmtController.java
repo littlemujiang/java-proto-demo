@@ -92,6 +92,7 @@ public class UserMgmtController {
         Criteria criteria = Criteria.where("username").is(username);
 
 
+
         BasicDBObject basicDBObject=new BasicDBObject();
         basicDBObject.put("$set", com.mongodb.util.JSON.parse(requestBody));
 
@@ -102,7 +103,6 @@ public class UserMgmtController {
         return new ResponseEntity(writeResult.toString(), HttpStatus.OK);
 
     }
-
 
 
     private ResponseEntity backup(@PathVariable String appkey,@PathVariable String username, @RequestBody String requestBody){

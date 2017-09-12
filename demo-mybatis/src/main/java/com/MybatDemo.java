@@ -16,7 +16,7 @@ import java.sql.Timestamp;
 import java.util.HashMap;
 import java.util.List;
 
-public class ABCS  {
+public class MybatDemo {
 
     public SqlSession getSqlSession(){
 
@@ -24,7 +24,7 @@ public class ABCS  {
 
             String resource = "mybatis-config.xml";
 
-            InputStream inputStream = ABCS.class.getClassLoader().getResourceAsStream(resource);
+            InputStream inputStream = MybatDemo.class.getClassLoader().getResourceAsStream(resource);
             SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
 
 //            Reader reader = Resources.getResourceAsReader(resource);
@@ -65,7 +65,10 @@ public class ABCS  {
         System.out.println(now);
         System.out.println(now.getTime());
 
-        mapper.insertApp(9, "第2个", now, now,"9999");
+//        mapper.insertApp(9, "第2个", now, now,"9999");
+
+        mapper.modifyApp("test1111");
+
         session.commit();
 
         List<App> apps = mapper.getApps();
@@ -118,10 +121,7 @@ public class ABCS  {
         JSONArray ja = (JSONArray) JSONObject.parse(jo.toString());
 
         System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-        System.out.println(js);
-        System.out.println(jo.toString());
         System.out.println(jo.toJSONString());
-        System.out.println(ja.toString());
 
         System.out.println(appServices.get(1).get("service_name"));
 
@@ -132,7 +132,7 @@ public class ABCS  {
     public static void main(String[] args) {
         // TODO �Զ����ɵķ������
 
-        ABCS abcs = new ABCS();
+        MybatDemo md = new MybatDemo();
 //        SqlSession session = abcs.getSqlSession();
 
 //        String statement = "com.domain.serviceMapper.getServiceById";
@@ -140,9 +140,9 @@ public class ABCS  {
 
 //        abcs.serviceMgmt();
 
-//        abcs.appMgmt();
+        md.appMgmt();
 
-        abcs.getAppService();
+//        md.getAppService();
 
 //          abcs.appMgmtByClass();
 

@@ -41,5 +41,8 @@ public interface AppMapper {
             "limit #{size}")
     List<HashMap> getAppsByPage(@Param("cursor")Timestamp cursor, @Param("size")int pageSize );
 
+    @Update("UPDATE app SET description=#{description} WHERE app_name='1111';")
+    void modifyApp(@Param("description")String description);
+
 
 }

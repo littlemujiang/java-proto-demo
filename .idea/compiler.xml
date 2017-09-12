@@ -23,15 +23,19 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="code-corner" />
+        <module name="demo-assorted" />
         <module name="demo-mybatis" />
         <module name="demo-springdata" />
+        <module name="demo-user-services" />
         <module name="user-services" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="code-corner" target="1.6" />
+      <module name="demo-assorted" target="1.6" />
       <module name="demo-mybatis" target="1.6" />
       <module name="demo-springdata" target="1.6" />
+      <module name="demo-user-services" target="1.6" />
       <module name="mydemo" target="1.6" />
       <module name="user-services" target="1.6" />
     </bytecodeTargetLevel>

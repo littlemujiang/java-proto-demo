@@ -1,6 +1,6 @@
 package com.controler;
 
-import com.ABCS;
+import com.MybatDemo;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
@@ -21,7 +21,7 @@ public class PageSelect {
 
     public void getSelectResult( int pageSize ){
 
-        ABCS a = new ABCS();
+        MybatDemo a = new MybatDemo();
         SqlSession session = a.getSqlSession();
         AppMapper appMapper = session.getMapper(AppMapper.class);
 

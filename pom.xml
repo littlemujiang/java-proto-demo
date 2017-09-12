@@ -14,7 +14,7 @@
         <module>demo-assorted</module>
         <module>demo-mybatis</module>
         <module>demo-springdata</module>
-        <module>user-services</module>
+        <module>demo-user-services</module>
     </modules>
 
 
