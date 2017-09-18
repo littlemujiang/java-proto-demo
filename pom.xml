@@ -15,6 +15,7 @@
         <module>demo-mybatis</module>
         <module>demo-springdata</module>
         <module>demo-user-services</module>
+        <module>demo-rabbit</module>
     </modules>
 
 

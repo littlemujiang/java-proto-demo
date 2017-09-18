@@ -18,13 +18,15 @@ public class AuthKeyGen {
 
         Timestamp now = new Timestamp(System.currentTimeMillis());
 
-        String authInfo_plain = client_id + client_secret + "AT" + now.getTime();
+//        String authInfo_plain = client_id + client_secret + "AT" + now.getTime();
+        String authInfo_plain = client_id + client_secret + "AT" + "1505358271580";
 
         String authInfo_md5 = SimpleMD5.getMD5(authInfo_plain, 16);
 
 //        LOG.info(authInfo_md5);
 
-        return authInfo_md5 + "." + now.getTime() ;
+//        return authInfo_md5 + "." + now.getTime() ;
+        return authInfo_md5 + "." + "1505358271580" ;
 
 
     }
@@ -41,11 +43,11 @@ public class AuthKeyGen {
 
 //        LOG.info("~~~~~~~~~~~~~");
 
-        String appKey  = "3466927A3BE24B398C0D4E9AE9B66C14";
+        String appKey  = "DB4CB01EF7AF4F8F8CA08D3CD8444C57";
         System.out.println("MSP-AppKey : " + appKey);
 
-        String client_id = "E682F8D631C84C45AA0A0A9B4526395E";
-        String client_secret = "D35A4A550D53448EB72FD71BF78820AA";
+        String client_id = "69B6B0479B31443D8D35D904E2D0B23B";
+        String client_secret = "4E85B038CFB949928F820294AD05CD40";
 
 
         AuthKeyGen akg = new AuthKeyGen();
