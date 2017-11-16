@@ -67,7 +67,8 @@ public class MybatDemo {
 
 //        mapper.insertApp(9, "第2个", now, now,"9999");
 
-        mapper.modifyApp("test1111");
+//        mapper.modifyApp("test1111");
+        mapper.modifyAnything("test1111");
 
         session.commit();
 

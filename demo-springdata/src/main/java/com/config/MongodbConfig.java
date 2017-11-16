@@ -4,7 +4,6 @@ import com.mongodb.Mongo;
 import com.mongodb.MongoClient;
 import com.mongodb.MongoCredential;
 import com.mongodb.ServerAddress;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.mongodb.config.AbstractMongoConfiguration;
@@ -22,15 +21,32 @@ import java.util.List;
 public class MongodbConfig extends AbstractMongoConfiguration {
 
 
-    @Value( "${mongodb.username}" )
-    private String username;
-    @Value( "${mongodb.source}" )
-    private String source;
-    @Value( "${mongodb.password}" )
-    private String password;
-    @Value( "${mongodb.serverAddress}" )
-    private String serverAddress;
+//    @Value( "${mongodb.username}" )
+//    private String username;
+//    @Value( "${mongodb.source}" )
+//    private String source;
+//    @Value( "${mongodb.password}" )
+//    private String password;
+//    @Value( "${mongodb.serverAddress}" )
+//    private String serverAddress;
 
+//local:
+//    private String serverAddress="localhost";
+//    private String source = "demo";
+//    private String username;
+//    private String password;
+
+//MSP-dev
+//    private String serverAddress="10.120.121.17";
+//    private String source = "msp";
+//    private String username = "mspadmin";
+//    private String password = "abcd-1234";
+
+//MSP-prod
+    private String serverAddress="10.96.83.25";
+    private String source = "msp";
+    private String username = "mspdev";
+    private String password = "abcd-1234";
 
     @Override
     protected String getDatabaseName() {

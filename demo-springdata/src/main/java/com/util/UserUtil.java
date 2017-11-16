@@ -18,6 +18,7 @@ public class UserUtil {
     //查询用户是否存在
     public static boolean isUserExist(String username, String appkey){
 
+
         if(userDao.findByUsernameAndAppkey(username,appkey).size() > 0)
             return true;
 

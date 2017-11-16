@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/demo-assorted/code-corner.iml" filepath="$PROJECT_DIR$/demo-assorted/code-corner.iml" />
-      <module fileurl="file://$PROJECT_DIR$/demo-assorted/demo-assorted.iml" filepath="$PROJECT_DIR$/demo-assorted/demo-assorted.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-util/demo-assorted.iml" filepath="$PROJECT_DIR$/demo-util/demo-assorted.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-mybatis/demo-mybatis.iml" filepath="$PROJECT_DIR$/demo-mybatis/demo-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-rabbit/demo-rabbit.iml" filepath="$PROJECT_DIR$/demo-rabbit/demo-rabbit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-redis/demo-redis.iml" filepath="$PROJECT_DIR$/demo-redis/demo-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-spring/demo-spring.iml" filepath="$PROJECT_DIR$/demo-spring/demo-spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-springdata/demo-springdata.iml" filepath="$PROJECT_DIR$/demo-springdata/demo-springdata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-util/demo-util.iml" filepath="$PROJECT_DIR$/demo-util/demo-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-webbase/demo-webbase.iml" filepath="$PROJECT_DIR$/demo-webbase/demo-webbase.iml" />
       <module fileurl="file://$PROJECT_DIR$/mydemo.iml" filepath="$PROJECT_DIR$/mydemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-user-services/user-services.iml" filepath="$PROJECT_DIR$/demo-user-services/user-services.iml" />
     </modules>

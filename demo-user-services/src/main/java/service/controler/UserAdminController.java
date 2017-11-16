@@ -7,15 +7,15 @@ package service.controler;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
-import service.dao.UserDao;
-import service.entity.ResponseDiscription;
-import service.entity.User;
-import service.util.TokenUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
+import service.dao.UserDao;
+import service.entity.ResponseDiscription;
+import service.entity.User;
+import service.util.TokenUtil;
 import service.util.UserUtil;
 
 import java.util.ArrayList;
@@ -33,6 +33,7 @@ public class UserAdminController {
 
     @Autowired
     UserUtil userUtil;
+
 
     //管理员获取用户列表
     @GetMapping(value="/v1/apps/{appkey}/service/user-service/users")
@@ -56,7 +57,6 @@ public class UserAdminController {
 
         responseObj.put("data",userArrayObj);
         responseObj.put("cursor",cursor);
-
 
         System.out.println("~~~~~~ get:   "+appkey);
 

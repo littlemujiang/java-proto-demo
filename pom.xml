@@ -11,13 +11,15 @@
 
 
     <modules>
-        <module>demo-assorted</module>
+        <module>demo-util</module>
         <module>demo-mybatis</module>
+        <module>demo-spring</module>
         <module>demo-springdata</module>
         <module>demo-user-services</module>
         <module>demo-rabbit</module>
+        <module>demo-redis</module>
+        <module>demo-webbase</module>
     </modules>
-
 
     <parent>
         <groupId>org.springframework.boot</groupId>

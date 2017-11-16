@@ -1,0 +1,15 @@
+
+server:
+  port: 9000
+
+spring:
+  application:
+    name: demo-springdata  # 应用名称必须保证全局唯一
+
+
+mongodb:
+  serverAddress: localhost
+  source: demo
+  port: 27017
+  username:
+  password:

@@ -2,6 +2,7 @@ package com.mapper_classes;
 
 import com.domain.App;
 import org.apache.ibatis.annotations.*;
+import org.apache.ibatis.jdbc.SQL;
 
 import java.sql.Timestamp;
 import java.util.HashMap;
@@ -44,5 +45,18 @@ public interface AppMapper {
     @Update("UPDATE app SET description=#{description} WHERE app_name='1111';")
     void modifyApp(@Param("description")String description);
 
+    @UpdateProvider(type = ModifySqlBuilder.class, method = "buildModifyAnythingByObject")
+    void modifyAnything(@Param("domain") Object domain);
+
+    class ModifySqlBuilder{
+
+        public String buildModifyAnythingByObject(@Param("domain") final Object domain){
+
+            new SQL(){};
+
+            return "";
+        }
+
+    }
 
 }

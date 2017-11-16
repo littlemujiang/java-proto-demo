@@ -1,5 +1,6 @@
 package com.dao;
 
+import com.entity.User;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
@@ -22,6 +23,5 @@ public interface UserDao extends MongoRepository<User,String> {
     User findOneByUsernameAndAppkey(String username, String appkey);
 
     <S extends User> S insert(S s);
-
 
 }
