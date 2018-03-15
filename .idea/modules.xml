@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/demo-util/demo-assorted.iml" filepath="$PROJECT_DIR$/demo-util/demo-assorted.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-base/demo-base.iml" filepath="$PROJECT_DIR$/demo-base/demo-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-citic/demo-citic.iml" filepath="$PROJECT_DIR$/demo-citic/demo-citic.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-mybatis/demo-mybatis.iml" filepath="$PROJECT_DIR$/demo-mybatis/demo-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-rabbit/demo-rabbit.iml" filepath="$PROJECT_DIR$/demo-rabbit/demo-rabbit.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-redis/demo-redis.iml" filepath="$PROJECT_DIR$/demo-redis/demo-redis.iml" />

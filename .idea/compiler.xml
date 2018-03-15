@@ -1,29 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <resourceExtensions />
-    <wildcardResourcePatterns>
-      <entry name="!?*.java" />
-      <entry name="!?*.form" />
-      <entry name="!?*.class" />
-      <entry name="!?*.groovy" />
-      <entry name="!?*.scala" />
-      <entry name="!?*.flex" />
-      <entry name="!?*.kt" />
-      <entry name="!?*.clj" />
-      <entry name="!?*.aj" />
-    </wildcardResourcePatterns>
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="false">
-        <processorPath useClasspath="true" />
-      </profile>
-      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+      <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
         <module name="code-corner" />
         <module name="demo-assorted" />
+        <module name="demo-base" />
+        <module name="demo-citic" />
         <module name="demo-mybatis" />
         <module name="demo-rabbit" />
         <module name="demo-redis" />
@@ -32,12 +18,15 @@
         <module name="demo-user-services" />
         <module name="demo-util" />
         <module name="demo-webbase" />
+        <module name="demobase" />
         <module name="user-services" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="code-corner" target="1.6" />
       <module name="demo-assorted" target="1.6" />
+      <module name="demo-base" target="1.6" />
+      <module name="demo-citic" target="1.6" />
       <module name="demo-mybatis" target="1.6" />
       <module name="demo-rabbit" target="1.6" />
       <module name="demo-redis" target="1.6" />
@@ -46,6 +35,7 @@
       <module name="demo-user-services" target="1.6" />
       <module name="demo-util" target="1.6" />
       <module name="demo-webbase" target="1.6" />
+      <module name="demobase" target="1.6" />
       <module name="mydemo" target="1.6" />
       <module name="user-services" target="1.6" />
     </bytecodeTargetLevel>

@@ -111,8 +111,9 @@ public class JedisManager {
      * 获取Jedis
      */
     public Jedis getJedis() {
-        if (pool == null)
+        if (pool == null){
             createJedisPool();
+        }
         Jedis jedis = pool.getResource();
         return jedis;
     }

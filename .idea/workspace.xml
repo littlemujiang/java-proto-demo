@@ -2,9 +2,179 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cbd0139-7b68-4199-a04d-11d7b32a27e5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-springdata/target/classes/com/MSPServiceApplyStat.class" afterPath="$PROJECT_DIR$/demo-springdata/target/classes/com/MSPServiceApplyStat.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-mybatis/target/classes/com/mapper_classes/AppMapper$ModifySqlBuilder$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-mybatis/target/classes/com/mapper_classes/AppMapper$ModifySqlBuilder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-redis/target/classes/JedisDemo.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/mapper_classes/AppMapper.java" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/mapper_classes/AppMapper2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api-mock-doc.png" afterPath="$PROJECT_DIR$/api-mock-doc.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api-mock.png" afterPath="$PROJECT_DIR$/api-mock.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-mybatis/target/classes/com/MybatDemo.class" afterPath="$PROJECT_DIR$/demo-mybatis/target/classes/com/MybatDemo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-mybatis/target/classes/com/controler/PageSelect.class" afterPath="$PROJECT_DIR$/demo-mybatis/target/classes/com/controler/PageSelect.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-mybatis/target/classes/com/domain/App.class" afterPath="$PROJECT_DIR$/demo-mybatis/target/classes/com/domain/App.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-mybatis/target/classes/com/domain/Service.class" afterPath="$PROJECT_DIR$/demo-mybatis/target/classes/com/domain/Service.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-mybatis/target/classes/com/mapper_classes/AppMapper.class" afterPath="$PROJECT_DIR$/demo-mybatis/target/classes/com/mapper_classes/AppMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-mybatis/target/classes/com/mapper_classes/ServiceMapper.class" afterPath="$PROJECT_DIR$/demo-mybatis/target/classes/com/mapper_classes/ServiceMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-mybatis/target/test-classes/com/PageSelectTest.class" afterPath="$PROJECT_DIR$/demo-mybatis/target/test-classes/com/PageSelectTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-rabbit/target/classes/com/Receiver$1.class" afterPath="$PROJECT_DIR$/demo-rabbit/target/classes/com/Receiver$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-rabbit/target/classes/com/Receiver.class" afterPath="$PROJECT_DIR$/demo-rabbit/target/classes/com/Receiver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-rabbit/target/classes/com/Sender.class" afterPath="$PROJECT_DIR$/demo-rabbit/target/classes/com/Sender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-redis/target/classes/utils/JedisManager.class" afterPath="$PROJECT_DIR$/demo-redis/target/classes/utils/JedisManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-redis/target/classes/utils/SpringUtil.class" afterPath="$PROJECT_DIR$/demo-redis/target/classes/utils/SpringUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-spring/target/classes/aop/AopConfig.class" afterPath="$PROJECT_DIR$/demo-spring/target/classes/aop/AopConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-spring/target/classes/aop/CommonService.class" afterPath="$PROJECT_DIR$/demo-spring/target/classes/aop/CommonService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-spring/target/classes/aop/EasyLogAspect.class" afterPath="$PROJECT_DIR$/demo-spring/target/classes/aop/EasyLogAspect.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-spring/target/classes/ioc/BeanConfig.class" afterPath="$PROJECT_DIR$/demo-spring/target/classes/ioc/BeanConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-spring/target/classes/ioc/CdMedia.class" afterPath="$PROJECT_DIR$/demo-spring/target/classes/ioc/CdMedia.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-spring/target/classes/ioc/CdPlayer.class" afterPath="$PROJECT_DIR$/demo-spring/target/classes/ioc/CdPlayer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-spring/target/classes/ioc/IMedia.class" afterPath="$PROJECT_DIR$/demo-spring/target/classes/ioc/IMedia.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-spring/target/classes/ioc/IPlayer.class" afterPath="$PROJECT_DIR$/demo-spring/target/classes/ioc/IPlayer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-spring/target/classes/main/java/task/ScheduledTask.class" afterPath="$PROJECT_DIR$/demo-spring/target/classes/main/java/task/ScheduledTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-spring/target/classes/task/EasySchedule.class" afterPath="$PROJECT_DIR$/demo-spring/target/classes/task/EasySchedule.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-spring/target/classes/task/ScheduleConfig.class" afterPath="$PROJECT_DIR$/demo-spring/target/classes/task/ScheduleConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-springdata/target/classes/com/EasyMongo.class" afterPath="$PROJECT_DIR$/demo-springdata/target/classes/com/EasyMongo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-springdata/target/classes/com/config/MongodbConfig.class" afterPath="$PROJECT_DIR$/demo-springdata/target/classes/com/config/MongodbConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-springdata/target/demo-springdata-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/demo-springdata/target/demo-springdata-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-springdata/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/demo-springdata/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-user-services/target/classes/service/UserService.class" afterPath="$PROJECT_DIR$/demo-user-services/target/classes/service/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-user-services/target/classes/service/config/MongodbConfig.class" afterPath="$PROJECT_DIR$/demo-user-services/target/classes/service/config/MongodbConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-user-services/target/classes/service/config/WebConfig.class" afterPath="$PROJECT_DIR$/demo-user-services/target/classes/service/config/WebConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-user-services/target/classes/service/config/handler/AdminAuthInterceptor.class" afterPath="$PROJECT_DIR$/demo-user-services/target/classes/service/config/handler/AdminAuthInterceptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-user-services/target/classes/service/config/handler/UserAuthInterceptor.class" afterPath="$PROJECT_DIR$/demo-user-services/target/classes/service/config/handler/UserAuthInterceptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-user-services/target/classes/service/controler/UserAdminController.class" afterPath="$PROJECT_DIR$/demo-user-services/target/classes/service/controler/UserAdminController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-user-services/target/classes/service/controler/UserMgmtController.class" afterPath="$PROJECT_DIR$/demo-user-services/target/classes/service/controler/UserMgmtController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-user-services/target/classes/service/controler/UserSecureController.class" afterPath="$PROJECT_DIR$/demo-user-services/target/classes/service/controler/UserSecureController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-user-services/target/classes/service/dao/UserDao.class" afterPath="$PROJECT_DIR$/demo-user-services/target/classes/service/dao/UserDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-user-services/target/classes/service/entity/ResponseDiscription.class" afterPath="$PROJECT_DIR$/demo-user-services/target/classes/service/entity/ResponseDiscription.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-user-services/target/classes/service/entity/User.class" afterPath="$PROJECT_DIR$/demo-user-services/target/classes/service/entity/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-user-services/target/classes/service/util/TokenUtil.class" afterPath="$PROJECT_DIR$/demo-user-services/target/classes/service/util/TokenUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-user-services/target/classes/service/util/UserUtil.class" afterPath="$PROJECT_DIR$/demo-user-services/target/classes/service/util/UserUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-util/target/classes/OnlyMain.class" afterPath="$PROJECT_DIR$/demo-util/target/classes/OnlyMain.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-util/target/classes/authkeygen/AuthKeyGen.class" afterPath="$PROJECT_DIR$/demo-util/target/classes/authkeygen/AuthKeyGen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-util/target/classes/authkeygen/SimpleMD5.class" afterPath="$PROJECT_DIR$/demo-util/target/classes/authkeygen/SimpleMD5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-util/target/classes/httpconn/EasyHttp.class" afterPath="$PROJECT_DIR$/demo-util/target/classes/httpconn/EasyHttp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-util/target/classes/httpconn/Http4RestTmp.class" afterPath="$PROJECT_DIR$/demo-util/target/classes/httpconn/Http4RestTmp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-util/target/classes/httpconn/MockTest.class" afterPath="$PROJECT_DIR$/demo-util/target/classes/httpconn/MockTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-util/target/classes/json2image/JSON2Image.class" afterPath="$PROJECT_DIR$/demo-util/target/classes/json2image/JSON2Image.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-util/target/classes/thirdpart/HttpResult.class" afterPath="$PROJECT_DIR$/demo-util/target/classes/thirdpart/HttpResult.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-util/target/classes/thirdpart/HttpUtils.class" afterPath="$PROJECT_DIR$/demo-util/target/classes/thirdpart/HttpUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-util/target/test-classes/EasyHttpTest.class" afterPath="$PROJECT_DIR$/demo-util/target/test-classes/EasyHttpTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-webbase/lib/FastInoset.jar" afterPath="$PROJECT_DIR$/demo-webbase/lib/FastInoset.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-webbase/lib/gmbal-api-only.jar" afterPath="$PROJECT_DIR$/demo-webbase/lib/gmbal-api-only.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-webbase/lib/ha-api.jar" afterPath="$PROJECT_DIR$/demo-webbase/lib/ha-api.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-webbase/lib/javax.annotation.jar" afterPath="$PROJECT_DIR$/demo-webbase/lib/javax.annotation.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-webbase/lib/jaxb-api.jar" afterPath="$PROJECT_DIR$/demo-webbase/lib/jaxb-api.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-webbase/lib/jaxb-impl.jar" afterPath="$PROJECT_DIR$/demo-webbase/lib/jaxb-impl.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-webbase/lib/jaxb-xjc.jar" afterPath="$PROJECT_DIR$/demo-webbase/lib/jaxb-xjc.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-webbase/lib/jaxws-api.jar" afterPath="$PROJECT_DIR$/demo-webbase/lib/jaxws-api.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-webbase/lib/jaxws-rt.jar" afterPath="$PROJECT_DIR$/demo-webbase/lib/jaxws-rt.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-webbase/lib/jaxws-tools.jar" afterPath="$PROJECT_DIR$/demo-webbase/lib/jaxws-tools.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-webbase/lib/jsr181-api.jar" afterPath="$PROJECT_DIR$/demo-webbase/lib/jsr181-api.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-webbase/lib/mail.jar" afterPath="$PROJECT_DIR$/demo-webbase/lib/mail.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-webbase/lib/management-api.jar" afterPath="$PROJECT_DIR$/demo-webbase/lib/management-api.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-webbase/lib/mimepull.jar" afterPath="$PROJECT_DIR$/demo-webbase/lib/mimepull.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-webbase/lib/policy.jar" afterPath="$PROJECT_DIR$/demo-webbase/lib/policy.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-webbase/lib/saaj-api.jar" afterPath="$PROJECT_DIR$/demo-webbase/lib/saaj-api.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-webbase/lib/saaj-impl.jar" afterPath="$PROJECT_DIR$/demo-webbase/lib/saaj-impl.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-webbase/lib/stax-ex.jar" afterPath="$PROJECT_DIR$/demo-webbase/lib/stax-ex.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-webbase/lib/stax2-api.jar" afterPath="$PROJECT_DIR$/demo-webbase/lib/stax2-api.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-webbase/lib/streambuffer.jar" afterPath="$PROJECT_DIR$/demo-webbase/lib/streambuffer.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-webbase/lib/woodstox-core-asl.jar" afterPath="$PROJECT_DIR$/demo-webbase/lib/woodstox-core-asl.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-webbase/target/classes/com/ServletDemo.class" afterPath="$PROJECT_DIR$/demo-webbase/target/classes/com/ServletDemo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-webbase/target/classes/example/HelloWorld.class" afterPath="$PROJECT_DIR$/demo-webbase/target/classes/example/HelloWorld.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_25.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_25.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/mapper_classes/AppMapper.java" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/mapper_classes/AppMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-mybatis/demo-mybatis.iml" afterPath="$PROJECT_DIR$/demo-mybatis/demo-mybatis.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-mybatis/pom.xml" afterPath="$PROJECT_DIR$/demo-mybatis/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/MybatDemo.java" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/MybatDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/controler/PageSelect.java" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/controler/PageSelect.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/domain/App.java" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/domain/App.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/domain/FunObject.java" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/domain/FunObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/domain/Service.java" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/domain/Service.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/mapper_classes/ServiceMapper.java" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/mapper_classes/ServiceMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-mybatis/src/main/resources/mapper_xmls/ServiceMapper.xml" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/resources/mapper_xmls/ServiceMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-mybatis/src/main/resources/mybatis-config.xml" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/resources/mybatis-config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-mybatis/src/test/java/com/PageSelectTest.java" afterPath="$PROJECT_DIR$/demo-mybatis/src/test/java/com/PageSelectTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-mybatis/target/classes/mapper_xmls/ServiceMapper.xml" afterPath="$PROJECT_DIR$/demo-mybatis/target/classes/mapper_xmls/ServiceMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-mybatis/target/classes/mybatis-config.xml" afterPath="$PROJECT_DIR$/demo-mybatis/target/classes/mybatis-config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-rabbit/demo-rabbit.iml" afterPath="$PROJECT_DIR$/demo-rabbit/demo-rabbit.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-rabbit/src/main/java/com/Receiver.java" afterPath="$PROJECT_DIR$/demo-rabbit/src/main/java/com/Receiver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-rabbit/src/main/java/com/Sender.java" afterPath="$PROJECT_DIR$/demo-rabbit/src/main/java/com/Sender.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-redis/demo-redis.iml" afterPath="$PROJECT_DIR$/demo-redis/demo-redis.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-redis/src/main/java/JedisDemo.java" afterPath="$PROJECT_DIR$/demo-redis/src/main/java/JedisDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-redis/src/main/java/utils/JedisManager.java" afterPath="$PROJECT_DIR$/demo-redis/src/main/java/utils/JedisManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-spring/.idea/.name" afterPath="$PROJECT_DIR$/demo-spring/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-spring/demo-spring.iml" afterPath="$PROJECT_DIR$/demo-spring/demo-spring.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-spring/src/main/java/aop/AopConfig.java" afterPath="$PROJECT_DIR$/demo-spring/src/main/java/aop/AopConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-spring/src/main/java/aop/CommonService.java" afterPath="$PROJECT_DIR$/demo-spring/src/main/java/aop/CommonService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-spring/src/main/java/aop/EasyLogAspect.java" afterPath="$PROJECT_DIR$/demo-spring/src/main/java/aop/EasyLogAspect.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-spring/src/main/java/ioc/BeanConfig.java" afterPath="$PROJECT_DIR$/demo-spring/src/main/java/ioc/BeanConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-spring/src/main/java/ioc/CdMedia.java" afterPath="$PROJECT_DIR$/demo-spring/src/main/java/ioc/CdMedia.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-spring/src/main/java/ioc/CdPlayer.java" afterPath="$PROJECT_DIR$/demo-spring/src/main/java/ioc/CdPlayer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-spring/src/main/java/ioc/IMedia.java" afterPath="$PROJECT_DIR$/demo-spring/src/main/java/ioc/IMedia.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-spring/src/main/java/ioc/IPlayer.java" afterPath="$PROJECT_DIR$/demo-spring/src/main/java/ioc/IPlayer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-spring/src/main/java/task/EasySchedule.java" afterPath="$PROJECT_DIR$/demo-spring/src/main/java/task/EasySchedule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-spring/src/main/java/task/ScheduleConfig.java" afterPath="$PROJECT_DIR$/demo-spring/src/main/java/task/ScheduleConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-spring/src/main/java/task/ScheduledTask.java" afterPath="$PROJECT_DIR$/demo-spring/src/main/java/task/ScheduledTask.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-spring/src/main/resources/bootstrap.yml" afterPath="$PROJECT_DIR$/demo-spring/src/main/resources/bootstrap.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-spring/target/classes/bootstrap.yml" afterPath="$PROJECT_DIR$/demo-spring/target/classes/bootstrap.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-springdata/demo-springdata.iml" afterPath="$PROJECT_DIR$/demo-springdata/demo-springdata.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-springdata/src/main/java/com/EasyMongo.java" afterPath="$PROJECT_DIR$/demo-springdata/src/main/java/com/EasyMongo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-springdata/src/main/java/com/MSPServiceApplyStat.java" afterPath="$PROJECT_DIR$/demo-springdata/src/main/java/com/MSPServiceApplyStat.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-springdata/src/main/java/com/config/MongodbConfig.java" afterPath="$PROJECT_DIR$/demo-springdata/src/main/java/com/config/MongodbConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-springdata/src/main/java/com/dao/UserDao.java" afterPath="$PROJECT_DIR$/demo-springdata/src/main/java/com/dao/UserDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-springdata/src/main/java/com/entity/ApplyService.java" afterPath="$PROJECT_DIR$/demo-springdata/src/main/java/com/entity/ApplyService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-springdata/src/main/java/com/entity/Service.java" afterPath="$PROJECT_DIR$/demo-springdata/src/main/java/com/entity/Service.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-springdata/src/main/java/com/entity/User.java" afterPath="$PROJECT_DIR$/demo-springdata/src/main/java/com/entity/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-springdata/src/main/java/com/util/UserUtil.java" afterPath="$PROJECT_DIR$/demo-springdata/src/main/java/com/util/UserUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-springdata/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/demo-springdata/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-springdata/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/demo-springdata/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-springdata/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/demo-springdata/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-user-services/demo-user-services.iml" afterPath="$PROJECT_DIR$/demo-user-services/demo-user-services.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-user-services/src/main/java/service/UserService.java" afterPath="$PROJECT_DIR$/demo-user-services/src/main/java/service/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-user-services/src/main/java/service/config/WebConfig.java" afterPath="$PROJECT_DIR$/demo-user-services/src/main/java/service/config/WebConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-user-services/src/main/java/service/config/handler/AdminAuthInterceptor.java" afterPath="$PROJECT_DIR$/demo-user-services/src/main/java/service/config/handler/AdminAuthInterceptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-user-services/src/main/java/service/config/handler/UserAuthInterceptor.java" afterPath="$PROJECT_DIR$/demo-user-services/src/main/java/service/config/handler/UserAuthInterceptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-user-services/src/main/java/service/controler/UserAdminController.java" afterPath="$PROJECT_DIR$/demo-user-services/src/main/java/service/controler/UserAdminController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-user-services/src/main/java/service/controler/UserMgmtController.java" afterPath="$PROJECT_DIR$/demo-user-services/src/main/java/service/controler/UserMgmtController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-user-services/src/main/java/service/controler/UserSecureController.java" afterPath="$PROJECT_DIR$/demo-user-services/src/main/java/service/controler/UserSecureController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-user-services/src/main/java/service/dao/UserDao.java" afterPath="$PROJECT_DIR$/demo-user-services/src/main/java/service/dao/UserDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-user-services/src/main/java/service/entity/ResponseDiscription.java" afterPath="$PROJECT_DIR$/demo-user-services/src/main/java/service/entity/ResponseDiscription.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-user-services/src/main/java/service/entity/User.java" afterPath="$PROJECT_DIR$/demo-user-services/src/main/java/service/entity/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-user-services/src/main/java/service/util/TokenUtil.java" afterPath="$PROJECT_DIR$/demo-user-services/src/main/java/service/util/TokenUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-user-services/src/main/java/service/util/UserUtil.java" afterPath="$PROJECT_DIR$/demo-user-services/src/main/java/service/util/UserUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-user-services/user-services.iml" afterPath="$PROJECT_DIR$/demo-user-services/user-services.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-util/demo-util.iml" afterPath="$PROJECT_DIR$/demo-util/demo-util.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-util/src/main/java/OnlyMain.java" afterPath="$PROJECT_DIR$/demo-util/src/main/java/OnlyMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-util/src/main/java/authkeygen/AuthKeyGen.java" afterPath="$PROJECT_DIR$/demo-util/src/main/java/authkeygen/AuthKeyGen.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-util/src/main/java/authkeygen/SimpleMD5.java" afterPath="$PROJECT_DIR$/demo-util/src/main/java/authkeygen/SimpleMD5.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-util/src/main/java/httpconn/EasyHttp.java" afterPath="$PROJECT_DIR$/demo-util/src/main/java/httpconn/EasyHttp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-util/src/main/java/httpconn/Http4RestTmp.java" afterPath="$PROJECT_DIR$/demo-util/src/main/java/httpconn/Http4RestTmp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-util/src/main/java/httpconn/MockTest.java" afterPath="$PROJECT_DIR$/demo-util/src/main/java/httpconn/MockTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-util/src/main/java/json2image/JSON2Image.java" afterPath="$PROJECT_DIR$/demo-util/src/main/java/json2image/JSON2Image.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-util/src/main/java/process/NetTest.java" afterPath="$PROJECT_DIR$/demo-util/src/main/java/process/NetTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-util/src/main/java/thirdpart/HttpUtils.java" afterPath="$PROJECT_DIR$/demo-util/src/main/java/thirdpart/HttpUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-util/src/main/resources/clientInfo.yml" afterPath="$PROJECT_DIR$/demo-util/src/main/resources/clientInfo.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-util/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/demo-util/src/main/resources/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-util/src/test/java/EasyHttpTest.java" afterPath="$PROJECT_DIR$/demo-util/src/test/java/EasyHttpTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-util/target/classes/clientInfo.yml" afterPath="$PROJECT_DIR$/demo-util/target/classes/clientInfo.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-util/target/classes/log4j.properties" afterPath="$PROJECT_DIR$/demo-util/target/classes/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-webbase/demo-webbase.iml" afterPath="$PROJECT_DIR$/demo-webbase/demo-webbase.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-webbase/src/main/java/com/ServletDemo.java" afterPath="$PROJECT_DIR$/demo-webbase/src/main/java/com/ServletDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-webbase/src/main/java/example/HelloWorld.java" afterPath="$PROJECT_DIR$/demo-webbase/src/main/java/example/HelloWorld.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-webbase/web/index.jsp" afterPath="$PROJECT_DIR$/demo-webbase/web/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/app-service.log" afterPath="$PROJECT_DIR$/logs/app-service.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/app-service.log.2017-09-06" afterPath="$PROJECT_DIR$/logs/app-service.log.2017-09-06" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mydemo.iml" afterPath="$PROJECT_DIR$/mydemo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="mydemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,6 +192,8 @@
     <ignored path="$PROJECT_DIR$/demo-webbase/target/" />
     <ignored path="$PROJECT_DIR$/demo-util/target/" />
     <ignored path="$PROJECT_DIR$/demo-spring/target/" />
+    <ignored path="$PROJECT_DIR$/demo-base/target/" />
+    <ignored path="$PROJECT_DIR$/demo-citic/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +201,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -39,84 +210,80 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MSPServiceApplyStat.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo-springdata/src/main/java/com/MSPServiceApplyStat.java">
+      <file leaf-file-name="HBListener.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-redis/src/main/java/HBListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.5294118">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="28" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo-util/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.941176">
-              <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="48" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServiceMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo-mybatis/src/main/resources/mapper_xmls/ServiceMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.625">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="374">
+              <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
               <folding>
-                <marker date="1504079456000" expanded="true" signature="765:817" placeholder="select * fro..service..." />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo-mybatis/src/main/java/com/mapper_classes/AppMapper.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-redis/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="72" column="43" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="43" />
+            <state relative-caret-position="285">
+              <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FunObject.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/demo-mybatis/src/main/java/com/domain/FunObject.java">
+      <file leaf-file-name="HBSender.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-redis/src/main/java/HBSender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="495">
+              <caret line="103" column="25" lean-forward="false" selection-start-line="103" selection-start-column="25" selection-end-line="103" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo-mybatis/src/main/java/com/domain/App.java">
+      <file leaf-file-name="EasyVerify.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo-base/src/main/java/thread/EasyVerify.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="725">
+              <caret line="82" column="5" lean-forward="true" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HBListener.class" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-redis/target/classes/HBListener.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-26">
+              <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#1267#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HBSender.class" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-redis/target/classes/HBSender.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-640">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#2745#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JedisDemo.class" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-redis/target/classes/JedisDemo.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-454">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#2063#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -131,6 +298,13 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>POST</find>
+      <find>keey</find>
+      <find>Dot</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -142,96 +316,76 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/demo-redis/src/main/java/utils/SpringUtil.java" />
-        <option value="$PROJECT_DIR$/demo-redis/src/main/java/utils/JedisManager.java" />
-        <option value="$PROJECT_DIR$/demo-redis/src/main/java/JedisDemo.java" />
-        <option value="$PROJECT_DIR$/demo-springdata/src/main/java/com/controller/DataCURDController.java" />
-        <option value="$PROJECT_DIR$/demo-springdata/src/main/java/com/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/demo-springdata/src/main/java/com/dao/UserDaoClass.java" />
-        <option value="$PROJECT_DIR$/demo-springdata/src/main/java/com/util/UserUtil.java" />
-        <option value="$PROJECT_DIR$/demo-springdata/src/main/java/com/dao/App.java" />
-        <option value="$PROJECT_DIR$/demo-springdata/src/main/java/com/dao/AppService.java" />
-        <option value="$PROJECT_DIR$/demo-springdata/src/main/java/com/dao/App_key_info.java" />
-        <option value="$PROJECT_DIR$/demo-assorted/src/main/java/authkeygen/AuthKeyGen.java" />
-        <option value="$PROJECT_DIR$/demo-assorted/src/main/resources/clientInfo.yml" />
-        <option value="$PROJECT_DIR$/demo-util/pom.xml" />
-        <option value="$PROJECT_DIR$/demo-webbase/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/demo-webbase/src/main/java/com/ServletDemo.java" />
-        <option value="$PROJECT_DIR$/demo-mybatis/src/main/java/com/MybatDemo.java" />
-        <option value="$PROJECT_DIR$/demo-springdata/src/main/java/com/config/MongodbConfig.java" />
-        <option value="$PROJECT_DIR$/demo-springdata/src/main/java/com/entity/ApplyService.java" />
-        <option value="$PROJECT_DIR$/demo-springdata/src/main/java/com/entity/App.java" />
-        <option value="$PROJECT_DIR$/demo-springdata/src/main/java/com/entity/Service.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/demo-spring/src/main/java/com/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/demo-spring/src/main/java/EasyMongo.java" />
-        <option value="$PROJECT_DIR$/demo-spring/src/main/java/ScheduledTask.java" />
-        <option value="$PROJECT_DIR$/demo-spring/src/main/java/ScheduleConfig.java" />
-        <option value="$PROJECT_DIR$/demo-spring/src/main/java/task/ScheduleConfig.java" />
-        <option value="$PROJECT_DIR$/demo-springdata/src/main/java/com/util/MSPMongoUtil.java" />
-        <option value="$PROJECT_DIR$/demo-springdata/src/main/java/com/MSPMongoUtil.java" />
-        <option value="$PROJECT_DIR$/demo-springdata/src/main/java/com/EasyMongo.java" />
-        <option value="$PROJECT_DIR$/demo-user-services/src/main/java/service/controler/UserAdminController.java" />
-        <option value="$PROJECT_DIR$/demo-spring/src/main/java/ioc/IPlayer.java" />
-        <option value="$PROJECT_DIR$/demo-spring/src/main/java/ioc/TestIOC.java" />
-        <option value="$PROJECT_DIR$/demo-spring/src/main/java/EasySchedule.java" />
-        <option value="$PROJECT_DIR$/demo-spring/src/main/java/ioca/CDMedia.java" />
-        <option value="$PROJECT_DIR$/demo-spring/src/main/java/main/java/ioc/CDMedia.java" />
-        <option value="$PROJECT_DIR$/demo-spring/src/main/java/ioc/IMedia.java" />
-        <option value="$PROJECT_DIR$/demo-spring/src/main/java/ioc/CDMedia.java" />
-        <option value="$PROJECT_DIR$/demo-spring/src/main/java/ioc/CDPlayer.java" />
+        <option value="$PROJECT_DIR$/demo-citic/src/main/java/com/tracer/mqtt/MqttClientImpl.java" />
+        <option value="$PROJECT_DIR$/demo-citic/src/main/java/com/VirtualDevice/mqtt/MqttClientImpl.java" />
+        <option value="$PROJECT_DIR$/demo-citic/src/main/java/com/VirtualDevice/mqtt/MosquitoConfig.java" />
+        <option value="$PROJECT_DIR$/demo-citic/src/main/java/com/VirtualDevice/DeviceConfig.java" />
+        <option value="$PROJECT_DIR$/demo-citic/src/main/java/com/VirtualDevice/VirtualSensor.java" />
+        <option value="$PROJECT_DIR$/demo-citic/src/main/java/com/VirtualDevice/sensors/VirtualSensor.java" />
+        <option value="$PROJECT_DIR$/demo-citic/src/main/java/com/VirtualDevice/template/commonSensorData" />
+        <option value="$PROJECT_DIR$/demo-citic/src/main/java/com/VirtualDevice/util/FileReaderUtil.java" />
+        <option value="$PROJECT_DIR$/demo-citic/src/main/java/com/VirtualDevice/sensors/AbstractSensor.java" />
+        <option value="$PROJECT_DIR$/demo-citic/src/main/java/com/VirtualDevice/sensors/CommonSensor.java" />
+        <option value="$PROJECT_DIR$/demo-citic/src/main/java/com/VirtualDevice/sensors/TemperatureSensor.java" />
+        <option value="$PROJECT_DIR$/demo-citic/src/main/resources/CustomSensorData" />
+        <option value="$PROJECT_DIR$/demo-citic/src/main/java/com/VirtualDevice/sensors/ake/PmdUuidSensor.java" />
+        <option value="$PROJECT_DIR$/demo-citic/src/main/resources/SensorTemplate" />
+        <option value="$PROJECT_DIR$/demo-citic/src/main/java/com/VirtualDevice/util/FileUtil.java" />
+        <option value="$PROJECT_DIR$/demo-citic/src/main/java/com/VirtualDevice/sensors/ake/IpSensor.java" />
+        <option value="$PROJECT_DIR$/demo-citic/src/main/java/com/VirtualDevice/config/DeviceConfig.java" />
+        <option value="$PROJECT_DIR$/demo-citic/src/main/java/com/VirtualDevice/config/VirtualDeviceConfig.java" />
+        <option value="$PROJECT_DIR$/demo-citic/src/main/java/com/VirtualDevice/config/AbstractDeviceConfig.java" />
+        <option value="$PROJECT_DIR$/demo-citic/src/main/java/com/VirtualDevice/VirtualDevice.java" />
+        <option value="$PROJECT_DIR$/demo-citic/src/main/resources/CommonSensorData" />
+        <option value="$PROJECT_DIR$/demo-citic/src/main/java/com/VirtualDevice/sensors/ake/TemperatureSensor.java" />
+        <option value="$PROJECT_DIR$/demo-citic/src/main/java/com/VirtualDevice/config/BaseDeviceConfig.java" />
+        <option value="$PROJECT_DIR$/demo-citic/src/main/java/com/VirtualDevice/config/AkeDeviceConfig.java" />
+        <option value="$PROJECT_DIR$/demo-citic/src/main/java/com/VirtualDevice/mqtt/MqttConfig.java" />
+        <option value="$PROJECT_DIR$/demo-citic/src/main/java/com/VirtualDevice/config/RobotDeviceConfig.java" />
+        <option value="$PROJECT_DIR$/demo-citic/src/main/java/com/VirtualDevice/ControlCenter.java" />
+        <option value="$PROJECT_DIR$/demo-citic/src/main/java/com/VirtualDevice/mqtt/MqttClientAgent.java" />
+        <option value="$PROJECT_DIR$/demo-citic/src/main/java/com/tracer/mqtt/ConquerConfig.java" />
+        <option value="$PROJECT_DIR$/demo-citic/src/main/java/com/tracer/MsgSenderThread.java" />
+        <option value="$PROJECT_DIR$/demo-citic/src/main/java/com/tracer/TraceTool.java" />
+        <option value="$PROJECT_DIR$/demo-citic/src/main/java/com/tracer/MsgDispatchThread.java" />
+        <option value="$PROJECT_DIR$/demo-citic/src/main/java/com/tracer/util/ConstantsTool.java" />
         <option value="$PROJECT_DIR$/demo-spring/pom.xml" />
-        <option value="$PROJECT_DIR$/demo-spring/src/main/java/ioc/CdMedia.java" />
-        <option value="$PROJECT_DIR$/demo-spring/src/main/java/ioc/BeanConfig.java" />
-        <option value="$PROJECT_DIR$/demo-spring/src/main/java/ioc/CdPlayer.java" />
-        <option value="$PROJECT_DIR$/demo-spring/src/main/java/aop/CommonService.java" />
-        <option value="$PROJECT_DIR$/demo-spring/src/main/java/task/EasySchedule.java" />
-        <option value="$PROJECT_DIR$/demo-spring/src/main/java/aop/AopConfig.java" />
-        <option value="$PROJECT_DIR$/demo-spring/src/main/java/aop/EasyLogAspect.java" />
-        <option value="$PROJECT_DIR$/demo-springdata/src/main/java/com/MSPServiceApplyStat.java" />
-        <option value="$PROJECT_DIR$/demo-util/src/main/java/authkeygen/AuthKeyGen.java" />
-        <option value="$PROJECT_DIR$/demo-util/src/main/java/process/NetTest.java" />
-        <option value="$PROJECT_DIR$/demo-util/src/main/resources/clientInfo.yml" />
-        <option value="$PROJECT_DIR$/demo-mybatis/src/main/java/com/mapper_classes/AppMapper.java" />
+        <option value="$PROJECT_DIR$/demo-spring/src/main/java/scope/ScopeTestApplication.java" />
+        <option value="$PROJECT_DIR$/demo-spring/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/demo-spring/src/main/java/scope/ScopeTestController.java" />
+        <option value="$PROJECT_DIR$/demo-spring/src/main/java/scope/ScopeTestService.java" />
+        <option value="$PROJECT_DIR$/demo-spring/src/main/java/scope/ScopeTestServiceImp.java" />
+        <option value="$PROJECT_DIR$/demo-spring/src/main/java/scope/ScopeTestServiceImpl.java" />
+        <option value="$PROJECT_DIR$/demo-user-services/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/demo-springdata/src/main/java/com/config/MongodbConfig.java" />
+        <option value="$PROJECT_DIR$/demo-springdata/src/main/java/com/EasyMongo.java" />
+        <option value="$PROJECT_DIR$/demo-redis/src/main/java/utils/JedisManager.java" />
+        <option value="$PROJECT_DIR$/demo-redis/src/main/java/utils/JedisListener.java" />
+        <option value="$PROJECT_DIR$/demo-redis/src/main/java/utils/DownListener.java" />
+        <option value="$PROJECT_DIR$/demo-redis/src/main/java/utils/UpListener.java" />
+        <option value="$PROJECT_DIR$/demo-redis/src/main/java/JedisDemo.java" />
+        <option value="$PROJECT_DIR$/demo-redis/src/main/java/HBListener.java" />
+        <option value="$PROJECT_DIR$/demo-redis/src/main/java/HBSender.java" />
+        <option value="$PROJECT_DIR$/demo-base/src/main/java/thread/EasyVerify.java" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Bundled (Maven 3)" />
-      </MavenGeneralSettings>
-    </option>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenProjectNavigator">
-    <treeState>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-      </PATH>
-    </treeState>
+    <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1870" />
-    <option name="height" value="1057" />
+    <option name="y" value="53" />
+    <option name="width" value="1880" />
+    <option name="height" value="1027" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -248,8 +402,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -257,12 +409,6 @@
               <option name="myItemId" value="mydemo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mydemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mydemo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -278,7 +424,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="demo-mybatis" />
+              <option name="myItemId" value="demo-base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -292,7 +438,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="demo-mybatis" />
+              <option name="myItemId" value="demo-base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -310,7 +456,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="demo-mybatis" />
+              <option name="myItemId" value="demo-base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -321,10 +467,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -336,37 +478,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="demo-mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mapper_xmls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mydemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mydemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo-mybatis" />
+              <option name="myItemId" value="demo-base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -382,81 +494,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mydemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mydemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo-mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mapper_classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mydemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mydemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo-mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
+              <option name="myItemId" value="thread" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -468,104 +514,56 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../task-split" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/demo-spring/src/main/java" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="mappers" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/demo-util/src/main/java" />
-      <recent name="$PROJECT_DIR$/demo-spring/src/main" />
-      <recent name="$PROJECT_DIR$/demo-spring" />
-      <recent name="$PROJECT_DIR$/demo-springdata/src/main/java/com/dao" />
-      <recent name="$PROJECT_DIR$/demo-redis/src/main/java" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.domain" />
-      <recent name="com.mapper_classes" />
-      <recent name="process" />
-      <recent name="authkeygen" />
-      <recent name="ioc" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/demo-citic/src/main/resources" />
+      <recent name="$PROJECT_DIR$/demo-citic/src/main/java" />
       <recent name="$PROJECT_DIR$/demo-springdata/src/main/java/com" />
       <recent name="$PROJECT_DIR$/demo-springdata/src/main" />
       <recent name="$PROJECT_DIR$/code-corner" />
-      <recent name="$PROJECT_DIR$/code-corner/src/main/java/httpconn" />
-      <recent name="$PROJECT_DIR$/code-corner/src/main/java/authkeygen" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="mappers" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="utils" />
+      <recent name="" />
+      <recent name="com.tracer" />
+      <recent name="com.VirtualDevice.config" />
+      <recent name="com.VirtualDevice.sensors" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/demo-citic/src/main/resources" />
+      <recent name="$PROJECT_DIR$/demo-citic/src/main/java/com/VirtualDevice" />
+      <recent name="$PROJECT_DIR$/demo-citic/src/main/java/VirtualDevice" />
+      <recent name="$PROJECT_DIR$/demo-base/src/main/java" />
+      <recent name="$PROJECT_DIR$/demo-util/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MSPServiceApplyStat">
-    <configuration default="false" name="CdPlayer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="aop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="ioc.CdPlayer" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="demo-spring" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="CommonService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="aop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="aop.CommonService" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="demo-spring" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="EasySchedule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="task.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="task.EasySchedule" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="demo-spring" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="MSPServiceApplyStat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.EasyVerify">
+    <configuration default="false" name="EasyMongo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.MSPServiceApplyStat" />
+      <option name="MAIN_CLASS_NAME" value="com.EasyMongo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -578,14 +576,9 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="AuthKeyGen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="authkeygen.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="authkeygen.AuthKeyGen" />
+    <configuration default="false" name="JedisDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="JedisDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -594,7 +587,57 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="demo-util" />
+      <module name="demo-redis" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="HBListener" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="HBListener" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="demo-redis" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="HBSender" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="HBSender" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="demo-redis" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="EasyVerify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="thread.EasyVerify" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="demo-base" />
       <envs />
       <method />
     </configuration>
@@ -602,35 +645,35 @@
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
-      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
-      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
-      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -640,27 +683,24 @@
       <option name="METHOD_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
-      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
-      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
-      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -743,6 +783,20 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
       <method />
     </configuration>
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
@@ -830,13 +884,13 @@
       <method />
     </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <module name="" />
       <setting name="vmparams" value="" />
       <setting name="cmdLine" value="run-app" />
-      <setting name="depsClasspath" value="false" />
       <setting name="passParentEnv" value="true" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <setting name="launchBrowser" value="false" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -851,27 +905,6 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -902,6 +935,19 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
@@ -915,6 +961,18 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="mydemo" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
       <envs />
       <method />
     </configuration>
@@ -938,9 +996,6 @@
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -985,35 +1040,8 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
@@ -1022,21 +1050,10 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
+      <command value="run" />
       <scripts />
+      <node-interpreter value="project" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-options />
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
       <method />
     </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
@@ -1053,25 +1070,64 @@
       <envs />
       <method />
     </configuration>
-    <list size="6">
+    <configuration default="false" name="ScopeTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="scope.ScopeTestApplication" />
+      <module name="demo-spring" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.UserService" />
-      <item index="1" class="java.lang.String" itemvalue="Application.CdPlayer" />
-      <item index="2" class="java.lang.String" itemvalue="Application.CommonService" />
-      <item index="3" class="java.lang.String" itemvalue="Application.EasySchedule" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MSPServiceApplyStat" />
-      <item index="5" class="java.lang.String" itemvalue="Application.AuthKeyGen" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.ScopeTestApplication" />
+      <item index="2" class="java.lang.String" itemvalue="Application.EasyMongo" />
+      <item index="3" class="java.lang.String" itemvalue="Application.JedisDemo" />
+      <item index="4" class="java.lang.String" itemvalue="Application.HBListener" />
+      <item index="5" class="java.lang.String" itemvalue="Application.HBSender" />
+      <item index="6" class="java.lang.String" itemvalue="Application.EasyVerify" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MSPServiceApplyStat" />
-        <item index="1" class="java.lang.String" itemvalue="Application.AuthKeyGen" />
-        <item index="2" class="java.lang.String" itemvalue="Application.CommonService" />
-        <item index="3" class="java.lang.String" itemvalue="Application.EasySchedule" />
-        <item index="4" class="java.lang.String" itemvalue="Application.CdPlayer" />
+        <item index="0" class="java.lang.String" itemvalue="Application.EasyVerify" />
+        <item index="1" class="java.lang.String" itemvalue="Application.HBSender" />
+        <item index="2" class="java.lang.String" itemvalue="Application.HBListener" />
+        <item index="3" class="java.lang.String" itemvalue="Application.JedisDemo" />
+        <item index="4" class="java.lang.String" itemvalue="Application.EasyMongo" />
       </list>
     </recent_temporary>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <method />
+    </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -1080,6 +1136,7 @@
       <changelist id="4cbd0139-7b68-4199-a04d-11d7b32a27e5" name="Default" comment="" />
       <created>1503483506286</created>
       <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1503483506286</updated>
       <workItem from="1503483507456" duration="25039000" />
       <workItem from="1503973851371" duration="575000" />
@@ -1129,43 +1186,75 @@
       <workItem from="1511314134062" duration="33000" />
       <workItem from="1511317469873" duration="2487000" />
       <workItem from="1511771101068" duration="5852000" />
+      <workItem from="1511951165272" duration="37000" />
+      <workItem from="1511951717340" duration="732000" />
+      <workItem from="1512010588691" duration="4499000" />
+      <workItem from="1512032881465" duration="6000" />
+      <workItem from="1512038698609" duration="8000" />
+      <workItem from="1512115650429" duration="4577000" />
+      <workItem from="1512379116106" duration="2104000" />
+      <workItem from="1512381720901" duration="564000" />
+      <workItem from="1512387189805" duration="351000" />
+      <workItem from="1512529456168" duration="2147000" />
+      <workItem from="1512638708470" duration="1995000" />
+      <workItem from="1514002731253" duration="1968000" />
+      <workItem from="1515031447380" duration="428000" />
+      <workItem from="1515480438800" duration="67579000" />
+      <workItem from="1515755185551" duration="70000" />
+      <workItem from="1515977031757" duration="19926000" />
+      <workItem from="1516342928526" duration="716000" />
+      <workItem from="1516599439895" duration="197000" />
+      <workItem from="1516599661463" duration="1087000" />
+      <workItem from="1516602547463" duration="2429000" />
+      <workItem from="1516774504666" duration="1688000" />
+      <workItem from="1517185738824" duration="2057000" />
+      <workItem from="1517532264279" duration="3102000" />
+      <workItem from="1519725509379" duration="1726000" />
+      <workItem from="1519815539222" duration="5893000" />
+      <workItem from="1519876663003" duration="3160000" />
+      <workItem from="1519952964527" duration="1254000" />
+      <workItem from="1519954252059" duration="75000" />
+      <workItem from="1519987725800" duration="9000" />
+      <workItem from="1519987763546" duration="315000" />
+      <workItem from="1520317151372" duration="6283000" />
+      <workItem from="1520388147609" duration="24069000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CDPlayer_testPlay - 2017.11.01 at 17h 35m 14s.xml">
-      <configuration name="CDPlayer.testPlay" configurationId="JUnit" />
+    <history-entry file="FileUtil_template2Class - 2018.01.12 at 14h 15m 17s.xml">
+      <configuration name="FileUtil.template2Class" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CDPlayer_testPlay - 2017.11.01 at 17h 37m 01s.xml">
-      <configuration name="CDPlayer.testPlay" configurationId="JUnit" />
+    <history-entry file="FileUtil_template2Class - 2018.01.12 at 14h 16m 36s.xml">
+      <configuration name="FileUtil.template2Class" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CDPlayer_testPlay - 2017.11.01 at 17h 54m 07s.xml">
-      <configuration name="CDPlayer.testPlay" configurationId="JUnit" />
+    <history-entry file="FileUtil_template2Class - 2018.01.12 at 14h 18m 21s.xml">
+      <configuration name="FileUtil.template2Class" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CDPlayer_testPlay - 2017.11.01 at 18h 16m 22s.xml">
-      <configuration name="CDPlayer.testPlay" configurationId="JUnit" />
+    <history-entry file="FileUtil_template2Class - 2018.01.12 at 14h 23m 24s.xml">
+      <configuration name="FileUtil.template2Class" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PageSelectTest_test - 2017.08.30 at 17h 14m 04s.xml">
-      <configuration name="PageSelectTest.test" configurationId="JUnit" />
+    <history-entry file="FileUtil_template2Class - 2018.01.12 at 14h 23m 56s.xml">
+      <configuration name="FileUtil.template2Class" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PageSelectTest_test - 2017.08.30 at 17h 23m 03s.xml">
-      <configuration name="PageSelectTest.test" configurationId="JUnit" />
+    <history-entry file="FileUtil_template2Class - 2018.01.12 at 14h 32m 18s.xml">
+      <configuration name="FileUtil.template2Class" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PageSelectTest_test - 2017.08.30 at 17h 24m 54s.xml">
-      <configuration name="PageSelectTest.test" configurationId="JUnit" />
+    <history-entry file="FileUtil_template2Class - 2018.01.12 at 14h 34m 09s.xml">
+      <configuration name="FileUtil.template2Class" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PageSelectTest_test - 2017.08.30 at 17h 26m 01s.xml">
-      <configuration name="PageSelectTest.test" configurationId="JUnit" />
+    <history-entry file="FileUtil_template2Class - 2018.01.12 at 14h 35m 42s.xml">
+      <configuration name="FileUtil.template2Class" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PageSelectTest_test - 2017.08.30 at 17h 27m 26s.xml">
-      <configuration name="PageSelectTest.test" configurationId="JUnit" />
+    <history-entry file="FileUtil_template2Class - 2018.01.12 at 14h 41m 53s.xml">
+      <configuration name="FileUtil.template2Class" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PageSelectTest_test - 2017.08.30 at 17h 28m 45s.xml">
-      <configuration name="PageSelectTest.test" configurationId="JUnit" />
+    <history-entry file="FileUtil_template2Class - 2018.01.12 at 14h 45m 21s.xml">
+      <configuration name="FileUtil.template2Class" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="309668000" />
+    <option name="totallyTimeSpent" value="470719000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1177,37 +1266,45 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1870" height="1057" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="53" width="1880" height="1027" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32800853" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34930778" sideWeight="0.50190526" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15536106" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3343983" sideWeight="0.4980947" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22044729" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1523395" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24452955" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36413643" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32673267" sideWeight="0.4980947" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29925454" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19042437" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32673267" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31735888" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32800853" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1234,16 +1331,40 @@
           <properties />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/demo-util/src/main/java/httpconn/EasyHttp.java</url>
-          <line>17</line>
+          <url>file://$PROJECT_DIR$/demo-springdata/src/main/java/com/EasyMongo.java</url>
+          <line>40</line>
           <properties />
-          <option name="timeStamp" value="28" />
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-springdata/src/main/java/com/EasyMongo.java</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-base/src/main/java/thread/EasyVerify.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-base/src/main/java/thread/EasyVerify.java</url>
+          <line>75</line>
+          <properties />
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-base/src/main/java/thread/EasyVerify.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="114" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="68" />
+      <option name="time" value="115" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1252,374 +1373,397 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demo-util/target/classes/authkeygen/AuthKeyGen.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.222221">
-          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-rabbit/src/main/java/com/Sender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-webbase/web/WEB-INF/sun-jaxws.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14469454">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/javax/xml/ws/Endpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.24665676">
-          <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE.jar!/org/springframework/scheduling/annotation/Scheduled.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.555555">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-webbase/src/main/java/com/ServletDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-webbase/src/main/java/example/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE.jar!/org/springframework/context/annotation/ComponentScan.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-spring/src/main/java/task/ScheduledTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-spring/src/main/java/task/ScheduleConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-user-services/src/main/java/service/controler/UserSecureController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-mybatis/src/main/java/com/controler/PageSelect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55982435">
-          <caret line="43" column="82" selection-start-line="43" selection-start-column="82" selection-end-line="43" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-util/src/main/java/OnlyMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07340946">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-util/src/main/java/authkeygen/SimpleMD5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/security/MessageDigest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="302" column="13" selection-start-line="302" selection-start-column="8" selection-end-line="302" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/security/MessageDigestSpi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="92" column="28" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-util/demo-util.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-rabbit/src/main/java/com/Receiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="73" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-spring/src/main/java/ioc/CdMedia.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-spring/src/main/java/ioc/BeanConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-spring/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.7843137">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-springdata/src/main/java/com/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo-springdata/src/main/java/com/util/UserUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="315">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-springdata/src/main/java/com/EasyMongo.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/1.10.4.RELEASE/spring-data-mongodb-1.10.4.RELEASE.jar!/org/springframework/data/mongodb/core/convert/MongoConverter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="106" column="40" selection-start-line="106" selection-start-column="40" selection-end-line="106" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-spring/src/main/java/task/EasySchedule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-spring/src/main/java/ioc/IPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-spring/src/main/java/ioc/IMedia.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-spring/src/main/java/ioc/CdPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="76" selection-start-line="40" selection-start-column="76" selection-end-line="40" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-springdata/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5755814">
-          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-springdata/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="45">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo-springdata/src/main/java/com/config/MongodbConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1273326">
-          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-user-services/src/main/java/service/controler/UserMgmtController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="15" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-user-services/src/main/java/service/controler/UserAdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55403554">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-spring/src/main/java/aop/AopConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-spring/src/main/java/aop/CommonService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-spring/src/main/java/aop/EasyLogAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-mybatis/src/main/java/com/MybatDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="51" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-mybatis/src/main/java/com/mapper_classes/ServiceMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-user-services/src/main/java/service/entity/ResponseDiscription.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="306">
+          <caret line="54" column="35" lean-forward="true" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo-springdata/src/main/java/com/MSPServiceApplyStat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        <state relative-caret-position="419">
+          <caret line="37" column="20" lean-forward="true" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/javax/swing/text/Document.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="31" column="61" lean-forward="true" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.4.2/mongo-java-driver-3.4.2.jar!/com/mongodb/WriteConcern.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4201">
+          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-391">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/1.10.4.RELEASE/spring-data-mongodb-1.10.4.RELEASE.jar!/org/springframework/data/mongodb/core/convert/MappingMongoConverter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="75" column="22" lean-forward="false" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-springdata/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE.jar!/org/springframework/context/ApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/1.10.4.RELEASE/spring-data-mongodb-1.10.4.RELEASE.jar!/org/springframework/data/mongodb/core/mapping/event/BeforeConvertEvent.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.4.2/mongo-java-driver-3.4.2.jar!/com/mongodb/DBCollection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.4.2/mongo-java-driver-3.4.2.jar!/com/mongodb/Mongo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="484" column="0" lean-forward="false" selection-start-line="484" selection-start-column="0" selection-end-line="484" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.4.2/mongo-java-driver-3.4.2.jar!/com/mongodb/operation/OperationHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="356" column="0" lean-forward="false" selection-start-line="356" selection-start-column="0" selection-end-line="356" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.4.2/mongo-java-driver-3.4.2.jar!/com/mongodb/operation/BaseWriteOperation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.4.2/mongo-java-driver-3.4.2.jar!/com/mongodb/operation/InsertOperation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.4.2/mongo-java-driver-3.4.2.jar!/com/mongodb/connection/DefaultServerConnection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.4.2/mongo-java-driver-3.4.2.jar!/com/mongodb/connection/DefaultServer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="144" column="0" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.4.2/mongo-java-driver-3.4.2.jar!/com/mongodb/connection/InsertCommandProtocol.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.4.2/mongo-java-driver-3.4.2.jar!/com/mongodb/connection/RequestMessage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.4.2/mongo-java-driver-3.4.2.jar!/com/mongodb/connection/BaseWriteCommandMessage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.4.2/mongo-java-driver-3.4.2.jar!/com/mongodb/connection/InsertCommandMessage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="57" column="24" lean-forward="false" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.4.2/mongo-java-driver-3.4.2.jar!/com/mongodb/connection/WriteCommandProtocol.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="158" column="0" lean-forward="false" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/1.10.4.RELEASE/spring-data-mongodb-1.10.4.RELEASE.jar!/org/springframework/data/mongodb/core/MongoTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="210" column="0" lean-forward="true" selection-start-line="210" selection-start-column="0" selection-end-line="210" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.4.2/mongo-java-driver-3.4.2.jar!/com/mongodb/DBObjectCodec.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.4.2/mongo-java-driver-3.4.2.jar!/com/mongodb/internal/validator/MappedFieldNameValidator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="43" lean-forward="false" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.4.2/mongo-java-driver-3.4.2.jar!/com/mongodb/internal/validator/NoOpFieldNameValidator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.4.2/mongo-java-driver-3.4.2.jar!/org/bson/FieldNameValidator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.4.2/mongo-java-driver-3.4.2.jar!/org/bson/AbstractBsonWriter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4515">
+          <caret line="322" column="0" lean-forward="false" selection-start-line="322" selection-start-column="0" selection-end-line="322" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.4.2/mongo-java-driver-3.4.2.jar!/com/mongodb/internal/validator/CollectibleDocumentFieldNameValidator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.4.2/mongo-java-driver-3.4.2.jar!/org/bson/Document.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/Jedis.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="279" column="45" lean-forward="false" selection-start-line="279" selection-start-column="40" selection-end-line="279" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-springdata/src/main/java/com/EasyMongo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1395">
+          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/demo-redis/src/main/java/utils/SpringUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.5294118">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="28" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-util/src/main/java/authkeygen/AuthKeyGen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="15" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-util/src/main/resources/clientInfo.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6532663">
-          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-util/src/main/java/process/NetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.81407034">
-          <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-util/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.941176">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="48" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-mybatis/src/main/java/com/domain/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-mybatis/src/main/resources/mapper_xmls/ServiceMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.625">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="795">
+          <caret line="57" column="5" lean-forward="false" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
           <folding>
-            <marker date="1504079456000" expanded="true" signature="765:817" placeholder="select * fro..service..." />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-mybatis/src/main/java/com/mapper_classes/AppMapper.java">
+    <entry file="file://$PROJECT_DIR$/demo-redis/src/main/java/utils/JedisManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="72" column="43" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="43" />
+        <state relative-caret-position="224">
+          <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-mybatis/src/main/java/com/domain/FunObject.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/JedisPubSub.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="143">
+          <caret line="161" column="0" lean-forward="false" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-redis/target/classes/HBListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26">
+          <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#1267#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-redis/target/classes/HBSender.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-640">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#2745#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-redis/target/classes/UpListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#516#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-redis/target/classes/DownListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#699#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-redis/src/main/java/utils/UpListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="33" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-redis/src/main/java/utils/DownListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-redis/target/classes/JedisDemo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-454">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#2063#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-redis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-redis/src/main/java/JedisDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="84" column="37" lean-forward="true" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-redis/src/main/java/HBListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-redis/src/main/java/HBSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="103" column="25" lean-forward="false" selection-start-line="103" selection-start-column="25" selection-end-line="103" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="145" column="13" lean-forward="false" selection-start-line="145" selection-start-column="13" selection-end-line="145" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="3798" column="30" lean-forward="false" selection-start-line="3798" selection-start-column="30" selection-end-line="3798" selection-end-column="30" />
+          <folding>
+            <element signature="e#177013#177014#0" expanded="false" />
+            <element signature="e#177054#177055#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-base/src/main/java/thread/EasyVerify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="82" column="5" lean-forward="true" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
           <folding />
         </state>
       </provider>

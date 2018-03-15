@@ -43,10 +43,18 @@ public class MongodbConfig extends AbstractMongoConfiguration {
 //    private String password = "abcd-1234";
 
 //MSP-prod
-    private String serverAddress="10.96.83.25";
-    private String source = "msp";
-    private String username = "mspdev";
-    private String password = "abcd-1234";
+//    private String serverAddress="10.96.83.25";
+//    private String source = "msp";
+//    private String username = "mspdev";
+//    private String password = "abcd-1234";
+
+//IOT-dev
+    private String serverAddress="10.76.3.70";
+    private String source = "admin";
+    private String username = null;
+    private String password = null;
+
+
 
     @Override
     protected String getDatabaseName() {

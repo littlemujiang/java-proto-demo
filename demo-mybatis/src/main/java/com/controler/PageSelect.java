@@ -4,7 +4,7 @@ import com.MybatDemo;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
-import com.mapper_classes.AppMapper;
+import com.mapper_classes.AppMapper2;
 import org.apache.ibatis.session.SqlSession;
 
 import java.sql.Timestamp;
@@ -23,7 +23,7 @@ public class PageSelect {
 
         MybatDemo a = new MybatDemo();
         SqlSession session = a.getSqlSession();
-        AppMapper appMapper = session.getMapper(AppMapper.class);
+        AppMapper2 appMapper = session.getMapper(AppMapper2.class);
 
 
 //        String cursor = String.valueOf(System.currentTimeMillis());

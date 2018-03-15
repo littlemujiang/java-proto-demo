@@ -1,53 +1,40 @@
 package com.domain;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import javax.persistence.Column;
+import javax.persistence.Id;
+import javax.persistence.Transient;
 import java.sql.Timestamp;
 
 /**
  * Created by epcm on 2017/8/25.
  */
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class App {
 
+    @Id
+//    @Column(name="app_id")
     private int app_id;
-    private String app_name, app_description;
-    private Timestamp created_at , modified_at;
 
-    public int getApp_id() {
-        return app_id;
-    }
+//    @Column(name="app_name")
+    private String app_name;
 
-    public void setApp_id(int app_id) {
-        this.app_id = app_id;
-    }
+//    @Column(name="app_description")
+    private String app_description;
 
-    public String getApp_name() {
-        return app_name;
-    }
+//    @Column(name="created_at")
+    private Timestamp created_at ;
 
-    public void setApp_name(String app_name) {
-        this.app_name = app_name;
-    }
+//    @Column(name="modified_at")
+    private Timestamp modified_at;
 
-    public String getApp_description() {
-        return app_description;
-    }
+    @Transient
+    private String owner;
 
-    public void setApp_description(String app_description) {
-        this.app_description = app_description;
-    }
-
-    public Timestamp getCreated_at() {
-        return created_at;
-    }
-
-    public void setCreated_at(Timestamp created_at) {
-        this.created_at = created_at;
-    }
-
-    public Timestamp getModified_at() {
-        return modified_at;
-    }
-
-    public void setModified_at(Timestamp modified_at) {
-        this.modified_at = modified_at;
-    }
 }

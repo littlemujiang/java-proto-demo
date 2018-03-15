@@ -13,3 +13,7 @@ mongodb:
   port: 27017
   username:
   password:
+
+eureka:
+  client:
+    enabled: false

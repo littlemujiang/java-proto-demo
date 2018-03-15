@@ -39,10 +39,11 @@ public class JedisDemo {
 
     }
 
-    private void resetInfo(){
+    private void produceEvent() {
 
         jedisManager = getJedisManager();
         Jedis jedis = jedisManager.getJedis();
+        jedis.select(0);
 
 //        String authInfo = jedis.hget("appkey02", "clientID02" );
 
@@ -50,17 +51,22 @@ public class JedisDemo {
 //            jedis.hset("appkey02", "clientID02", "1");
 
 
-        for(int i=0; i < 10 ; i++ ){
+//        jedis.set("heartbeat-test"+0,  "aaa" );
+//        jedis.set("heartbeat-test"+1,  "aaa" );
+//        jedis.set("heartbeat-test"+2,  "aaa" );
 
-            for(int j=0; j < 10 ; j++ )
+        for (int i = 0; i < 10; i++) {
 
-            jedis.hset("AUTH:appkey"+i, "clientID" + j, "1");
-//            jedis.expire("appkey02", 20 );
-
+            if(i<5){
+                jedis.set("heartbeat-test"+i,  "aaa" );
+            }else {
+                jedis.setex("heartbeat-test"+i,15, "bbb");
+            }
+//            jedis.set("heartbeat-test"+0,  "aaa" );
         }
-
+        jedis.hset("heartbeat",  "deviceID", "bbbb" );
+//        jedis.expire("heartbeat-test", 10 );
         jedisManager.release(jedis);
-
         System.out.println("---- done ----");
 
     }
@@ -73,11 +79,19 @@ public class JedisDemo {
         JedisDemo jedisDemo =  new JedisDemo();
 //        jedisDemo.insertInfo();
 
-        jedisDemo.resetInfo();
+
+        try {
+            Thread.sleep(1000);
+            jedisDemo.produceEvent();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
 //        jedisDemo.getInfo();
 
     }
 
 
+
 }
+

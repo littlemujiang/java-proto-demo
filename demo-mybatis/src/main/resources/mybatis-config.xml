@@ -9,7 +9,7 @@
             <transactionManager type="JDBC"/>
             <dataSource type="POOLED">
                 <property name="driver" value="com.mysql.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://localhost:3306/abc"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/dev?useUnicode=true&amp;characterEncoding=utf-8"/>
                 <property name="username" value="root"/>
                 <property name="password" value="root"/>
             </dataSource>
@@ -41,5 +41,7 @@
         <!--<com.mapper_classes resource="com.mapper_classes/ServiceMapper.xml"/>-->
         <!--<com.mapper_classes class="com.mapper_classes.ServiceMapper"/>-->
         <package name="com.mapper_classes"/>
+        <!--<mapper class="com.mapper_classes.AppMapper" />-->
     </mappers>
+
 </configuration>

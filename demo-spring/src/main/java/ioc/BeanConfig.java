@@ -14,6 +14,4 @@ public class BeanConfig {
 //    public CdMedia cdMedia(){
 //        return new CdMedia();
 //    }
-
-
 }

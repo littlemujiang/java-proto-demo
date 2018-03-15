@@ -4,13 +4,18 @@ import com.alibaba.fastjson.JSONObject;
 import com.config.MongodbConfig;
 import com.entity.App;
 import com.entity.User;
+import com.mongodb.WriteConcern;
 import com.mongodb.WriteResult;
+import netscape.javascript.JSObject;
 import org.springframework.data.mongodb.core.MongoTemplate;
+import org.springframework.data.mongodb.core.convert.MappingMongoConverter;
+import org.springframework.data.mongodb.core.convert.MongoConverter;
 import org.springframework.data.mongodb.core.query.BasicQuery;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.data.mongodb.core.query.Update;
 
+import org.bson.Document;
 import java.util.Date;
 import java.util.List;
 
@@ -29,7 +34,11 @@ public class EasyMongo {
         try {
             if(mongoTemplate == null ){
                 MongodbConfig mongodbConfig = new MongodbConfig();
-                this.mongoTemplate = mongodbConfig.mongoTemplate();
+
+                mongoTemplate = mongodbConfig.mongoTemplate();
+                MappingMongoConverter mongoConverter = (MappingMongoConverter) mongoTemplate.getConverter();
+                mongoConverter.setMapKeyDotReplacement("!");
+//                MappingMongoConverter mongoConverter2 = (MappingMongoConverter) mongoTemplate.getConverter();
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -77,24 +86,41 @@ public class EasyMongo {
     }
 
 
-    private void queryAuthInfo(){
+    private void insertDoc() {
+        mongoInit();
+
+        Document msgBson = new Document();
+        msgBson.put("father.son","value");
+
+//        JSONObject msgJson = new JSONObject();
+//        msgJson.put("father!son","value");
+
+
+        String collectionName = "demo_temp";
+
+//        mongoTemplate.insert(msgJson, collectionName);
+        mongoTemplate.save(msgBson, collectionName);
+
+    }
+
+    private void queryInfo(){
 
         mongoInit();
-        String queryString = "{\n" +
-                "    \"app_key_info.app_key\":\"DD30C2ED868F470DB521B9B6014A7DC6\",\n" +
-                "    \"appServices\":{\"$elemMatch\":\n" +
-                "        {\n" +
-                "            \"service_id\" : \"593cf9b680cfe22ed91a25ff\",\n" +
-                "            \"service_statu\" : \"empowered\"\n" +
-                "        }\n" +
-                "        }  \n" +
-                "    }";
+//        String queryString = "{\n" +
+//                "    \"app_key_info.app_key\":\"DD30C2ED868F470DB521B9B6014A7DC6\",\n" +
+//                "    \"appServices\":{\"$elemMatch\":\n" +
+//                "        {\n" +
+//                "            \"service_id\" : \"593cf9b680cfe22ed91a25ff\",\n" +
+//                "            \"service_statu\" : \"empowered\"\n" +
+//                "        }\n" +
+//                "        }  \n" +
+//                "    }";
+        String queryString = "{\"father!son\":\"value\"}";
         BasicQuery query = new BasicQuery(queryString);
 
-        List<App> appList =  mongoTemplate.find(query, App.class);
+        List<Document> appList =  mongoTemplate.find(query, Document.class,"demo_temp");
 
-        System.out.println("==========="+appList.size());
-        System.out.println("==========="+appList.get(0).getApp_key_info().app_key);
+        System.out.println("=========== \r\n"+appList);
 
     }
 
@@ -104,7 +130,8 @@ public class EasyMongo {
 //        SpringApplication.run(EasyMongo.class, args);
 
 //        new EasyMongo().updateDoc();
-        new EasyMongo().queryAuthInfo();
+//        new EasyMongo().insertDoc();
+        new EasyMongo().queryInfo();
 //          new MSPServiceApplyStat().getAppliedService();
     }
 

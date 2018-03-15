@@ -19,6 +19,8 @@
         <module>demo-rabbit</module>
         <module>demo-redis</module>
         <module>demo-webbase</module>
+        <module>demo-base</module>
+        <module>demo-citic</module>
     </modules>
 
     <parent>
@@ -56,6 +58,12 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.31</version>
         </dependency>
 
     </dependencies>
