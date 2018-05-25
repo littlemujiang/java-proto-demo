@@ -37,7 +37,7 @@ public class JedisManager {
 //    private  String ip;
 //    private  int port=6379;
 //    private  String auth;
-    private  int redisMaxTotal=500;
+    private  int redisMaxTotal=5000;
     private  int redisMaxIdle=50;
 
     private static JedisPool pool;
@@ -102,8 +102,7 @@ public class JedisManager {
         config.setBlockWhenExhausted(false);// 超出连接数是否阻塞
         // 在borrow一个jedis实例时，是否提前进行validate操作；如果为true，则得到的jedis实例均是可用的；
         config.setTestOnBorrow(true);
-        pool = new JedisPool(config, ip, port , timeout,
-                auth);
+        pool = new JedisPool(config, ip, port , timeout, auth);
 
     }
 

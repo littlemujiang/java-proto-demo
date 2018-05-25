@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.drools:drools-canonical-model:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/drools/drools-canonical-model/unknown/drools-canonical-model-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/drools/drools-canonical-model/unknown/drools-canonical-model-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/drools/drools-canonical-model/unknown/drools-canonical-model-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

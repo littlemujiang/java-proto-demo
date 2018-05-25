@@ -10,11 +10,15 @@
         <module name="demo-assorted" />
         <module name="demo-base" />
         <module name="demo-citic" />
+        <module name="demo-drools" />
         <module name="demo-mybatis" />
         <module name="demo-rabbit" />
         <module name="demo-redis" />
         <module name="demo-spring" />
+        <module name="demo-springboot" />
         <module name="demo-springdata" />
+        <module name="demo-springdata-mongo" />
+        <module name="demo-springdata-neo4j" />
         <module name="demo-user-services" />
         <module name="demo-util" />
         <module name="demo-webbase" />
@@ -27,11 +31,16 @@
       <module name="demo-assorted" target="1.6" />
       <module name="demo-base" target="1.6" />
       <module name="demo-citic" target="1.6" />
+      <module name="demo-drools" target="1.6" />
       <module name="demo-mybatis" target="1.6" />
       <module name="demo-rabbit" target="1.6" />
       <module name="demo-redis" target="1.6" />
       <module name="demo-spring" target="1.6" />
+      <module name="demo-springboot" target="1.6" />
       <module name="demo-springdata" target="1.6" />
+      <module name="demo-springdata-mongo" target="1.8" />
+      <module name="demo-springdata-mongo (1)" target="1.6" />
+      <module name="demo-springdata-neo4j" target="1.6" />
       <module name="demo-user-services" target="1.6" />
       <module name="demo-util" target="1.6" />
       <module name="demo-webbase" target="1.6" />

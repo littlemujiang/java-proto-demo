@@ -2,6 +2,8 @@ import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPubSub;
 import utils.JedisManager;
 
+import java.util.Date;
+
 /**
  * Created by mujiang on 2017/9/22.
  */
@@ -20,10 +22,11 @@ public class HBListener {
         return this.jedisManager;
     }
 
-    private void subJedis(){
-//        jedisManager = getJedisManager();
-//        Jedis jedis = jedisManager.getJedis();
+    public void subJedis(){
+        jedisManager = getJedisManager();
+        Jedis jedis = jedisManager.getJedis();
 //        jedis.psubscribe(new UpListener(), "*");
+//        jedis.psubscribe(new DownListener(), "*");
         new Thread( new SubJedis()).start();
         new Thread( new SubJedis2()).start();
 
@@ -35,7 +38,8 @@ public class HBListener {
         @Override
         public void run() {
             Jedis jedis = new JedisManager().getJedis();
-            jedis.psubscribe(new DownListener(), "__keyevent@1__:expired");
+            jedis.select(5);
+            jedis.psubscribe(new DownListener(), "__keyevent@[0-1]__:expired");
         }
     }
 
@@ -44,7 +48,9 @@ public class HBListener {
         @Override
         public void run() {
             Jedis jedis = new JedisManager().getJedis();
-            jedis.psubscribe(new UpListener(), "__keyevent@1__:set");
+            jedis.select(5);
+            jedis.psubscribe(new UpListener(), "__keyevent@[0-1]__:set");
+//            jedis.psubscribe(new UpListener(), "*");
         }
     }
 
@@ -54,6 +60,7 @@ public class HBListener {
 
         HBListener listener =  new HBListener();
         listener.subJedis();
+
     }
 
     class DownListener extends JedisPubSub {
@@ -66,10 +73,12 @@ public class HBListener {
 
         @Override
         public void onPMessage(String pattern, String channel, String message) {
-            Jedis jedis = new JedisManager().getJedis();
-            jedis.select(1);
-            jedis.del("ON_"+message);
-            System.out.println("device: " + message + " DOWN!");
+
+            System.out.println("pattern: " + pattern );
+            System.out.println("channel: " + channel );
+            System.out.println("message: " + message );
+
+            System.out.println("device: " + message + " DOWN! @  "  + String.valueOf(new Date()));
         }
 
     }
@@ -78,17 +87,17 @@ public class HBListener {
 
         @Override
         public void onPSubscribe(String pattern, int subscribedChannels) {
-            System.out.println("onPSubscribe "
-                    + pattern + " " + subscribedChannels);
+            System.out.println("onPSubscribe " + pattern + " " + subscribedChannels);
         }
 
         @Override
         public void onPMessage(String pattern, String channel, String message) {
 
-//        System.out.println("onPMessage pattern "
-//                + pattern + " " + channel + " " + message);
+            System.out.println("pattern: " + pattern );
+            System.out.println("channel: " + channel );
+            System.out.println("message: " + message );
 
-            System.out.println("device: " + message + " UP!");
+            System.out.println("device: " + message + " UP!   @ " + String.valueOf(new Date()));
 
         }
 

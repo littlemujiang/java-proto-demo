@@ -1,0 +1,18 @@
+
+Psquid:UnusedPrivateMethod".Remove this unused private "runThread" method.(¨ƒÉO
+[squid:S1192"FDefine a constant instead of duplicating this literal "fresh" 3 times.(â¡Úó
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Å†İğ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(“Ì¼¯
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÇÍû”üÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(‹ºŞ¯øÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(à¿öÑúÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(Çğ¹ƒûÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(Š™¡°ûÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(Òè¿Ò
+Vsquid:UselessImportCheck"4Remove this unused import 'java.lang.reflect.Array'.(‡¡É˜
+‡squid:UselessImportCheck"fRemove this unused import 'org.springframework.context.annotation.AnnotationConfigApplicationContext'.(€¡¹;

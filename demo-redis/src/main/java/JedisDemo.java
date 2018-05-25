@@ -1,3 +1,7 @@
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.stereotype.Component;
 import redis.clients.jedis.Jedis;
 import utils.JedisManager;
 
@@ -79,13 +83,14 @@ public class JedisDemo {
         JedisDemo jedisDemo =  new JedisDemo();
 //        jedisDemo.insertInfo();
 
-
         try {
             Thread.sleep(1000);
             jedisDemo.produceEvent();
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+
+
 
 //        jedisDemo.getInfo();
 

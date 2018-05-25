@@ -1,0 +1,27 @@
+
+lsquid:UselessImportCheck"ERemove this unused import 'org.springframework.stereotype.Component'.(Þ÷Ñ¸ÿÿÿÿÿ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¾ýÆ®
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(Éø²¥üÿÿÿÿ
+`squid:HiddenFieldCheck"@Rename "jedisManager" which hides the field declared at line 15.(Õ¾…‹
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(‘Õìãýÿÿÿÿ
+msquid:UselessImportCheck"KRemove this unused import 'org.springframework.context.ApplicationContext'.(»Ô»¿
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ûÛÏçùÿÿÿÿ
+Dsquid:S1481"*Remove this unused "bytes" local variable.(ìþ¶´úÿÿÿÿ
+1squid:S1220""Move this file to a named package.
+Tsquid:UnusedPrivateMethod",Remove this unused private "getInfo" method.(Ä¯§Úúÿÿÿÿ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Š‚¶ˆ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‡žã«ùÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÏŠè¢ÿÿÿÿÿ
+[squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+xsquid:UselessImportCheck"QRemove this unused import 'org.springframework.context.annotation.ComponentScan'.(æëòÒûÿÿÿÿ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(†óÞ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(÷—«
+Ssquid:S1854"9Remove this useless assignment to local variable "bytes".(ìþ¶´úÿÿÿÿ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(†óÞ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(†å”ƒùÿÿÿÿ
+Rsquid:UnusedPrivateMethod"/Remove this unused private "insertInfo" method.(Ô³ÇŸ
+‡squid:UselessImportCheck"fRemove this unused import 'org.springframework.context.annotation.AnnotationConfigApplicationContext'.(€¡¹;

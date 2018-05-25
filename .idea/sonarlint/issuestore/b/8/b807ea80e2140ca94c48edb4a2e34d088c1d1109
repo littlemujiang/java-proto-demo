@@ -1,0 +1,11 @@
+
+Bsquid:S3067"-Synchronize on the static class name instead.(È‘Ó‹
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ø∑ƒ±
+Ösquid:S1319"kThe type of the "map" object should be an interface such as "Map" rather than the implementation "HashMap".(Ÿ÷µ»¯ˇˇˇˇ
+Ösquid:S1319"kThe type of the "map" object should be an interface such as "Map" rather than the implementation "HashMap".(ŸÀº›˘ˇˇˇˇ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(“Ôµï
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(†óÌ£¸ˇˇˇˇ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(¶Ÿƒµ˚ˇˇˇˇ

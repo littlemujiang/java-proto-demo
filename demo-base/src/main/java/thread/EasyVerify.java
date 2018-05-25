@@ -1,5 +1,8 @@
 package thread;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
+import org.json.JSONException;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import java.lang.reflect.Array;
@@ -41,43 +44,34 @@ public class EasyVerify {
 
     public static void main(String[] args){
 
+        JSONObject sensorData = new JSONObject();
+        JSONObject sensor = new JSONObject();
 
-//        new EasyVerify().runThread();
 
-        Map<String,Object> m = new HashMap();
-        m.put("111","aaa");
-        m.put("222","aaa");
-        m.put("333","aaa");
+        try {
+            sensor.put("sensorCode",50);
+            sensor.put("sensorName", 50.5);
 
-        System.out.println(m);
 
-        ArrayList a = new ArrayList();
-//        Set<String> s = m.keySet();
-        for(String key : m.keySet()){
-            a.add(key);
+            String aa = JSON.toJSONString(sensor);
+
+            Map<String,String> shadowMap = new HashMap<String, String>();
+            shadowMap.put("aa",aa);
+
+
+            JSONObject shadow = JSON.parseObject(shadowMap.get("aa").toString());
+            JSONObject shadow2 = (JSONObject) JSONObject.parse(shadowMap.get("aa"));
+
+
+            Object a = shadow.get("sensorName");
+            Object a2 = shadow2.get("sensorName");
+
+            System.out.println(shadow);
+
+
+        } catch (Exception e) {
+            e.printStackTrace();
         }
-
-        System.out.println("a: "+a.toString());
-
-        Map<String, String> n = new HashMap();
-        n.put("fresh", a.toString());
-        System.out.println(n.get("fresh"));
-
-
-        String fresh = n.get("fresh");
-        fresh = fresh.substring(1,fresh.length()-1);
-
-        String[] freshArray = {};
-        if(fresh.length()>0){
-            freshArray = fresh.split(",");
-        }
-        List freshList = new ArrayList();
-        for(String s : freshArray){
-            freshList.add(s.trim());
-        }
-
-        System.out.println(freshList.contains("222"));
-
 
 
     }
