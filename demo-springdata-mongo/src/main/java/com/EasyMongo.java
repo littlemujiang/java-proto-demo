@@ -40,6 +40,8 @@ public class EasyMongo {
                 mongoTemplate = mongodbConfig.mongoTemplate();
                 MappingMongoConverter mongoConverter = (MappingMongoConverter) mongoTemplate.getConverter();
                 mongoConverter.setMapKeyDotReplacement("!");
+                mongoConverter.setCustomConversions();
+
 //                MappingMongoConverter mongoConverter2 = (MappingMongoConverter) mongoTemplate.getConverter();
             }
         } catch (Exception e) {

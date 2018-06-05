@@ -44,30 +44,19 @@ public class EasyVerify {
 
     public static void main(String[] args){
 
-        JSONObject sensorData = new JSONObject();
-        JSONObject sensor = new JSONObject();
+        List<JSONObject> commandList = new ArrayList<JSONObject>();
+        JSONObject jo = new JSONObject();
+        JSONObject jo2 = new JSONObject();
 
 
         try {
-            sensor.put("sensorCode",50);
-            sensor.put("sensorName", 50.5);
 
+            jo.put("aa","aa");
+            jo2.put("bb","bb");
+            commandList.add(jo);
+            commandList.add(jo2);
 
-            String aa = JSON.toJSONString(sensor);
-
-            Map<String,String> shadowMap = new HashMap<String, String>();
-            shadowMap.put("aa",aa);
-
-
-            JSONObject shadow = JSON.parseObject(shadowMap.get("aa").toString());
-            JSONObject shadow2 = (JSONObject) JSONObject.parse(shadowMap.get("aa"));
-
-
-            Object a = shadow.get("sensorName");
-            Object a2 = shadow2.get("sensorName");
-
-            System.out.println(shadow);
-
+            System.out.println(commandList.toString());
 
         } catch (Exception e) {
             e.printStackTrace();
