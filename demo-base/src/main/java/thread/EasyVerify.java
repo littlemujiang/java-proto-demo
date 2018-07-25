@@ -40,11 +40,17 @@ public class EasyVerify {
     }
 
 
-
-
     public static void main(String[] args){
 
+        Boolean bl = true;
+        if(bl){
+            System.out.println("AAA");
+        }
+
         List<JSONObject> commandList = new ArrayList<JSONObject>();
+
+        JSONObject a = commandList.get(0);
+
         JSONObject jo = new JSONObject();
         JSONObject jo2 = new JSONObject();
 

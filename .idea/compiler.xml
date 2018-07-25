@@ -31,7 +31,7 @@
       <module name="demo-assorted" target="1.6" />
       <module name="demo-base" target="1.6" />
       <module name="demo-citic" target="1.6" />
-      <module name="demo-drools" target="1.6" />
+      <module name="demo-drools" target="1.7" />
       <module name="demo-mybatis" target="1.6" />
       <module name="demo-rabbit" target="1.6" />
       <module name="demo-redis" target="1.6" />

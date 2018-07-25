@@ -1,0 +1,31 @@
+package demo;
+
+import drools.adapter.AIOData;
+import drools.adapter.AIODataParsed;
+
+rule "humidity 优"
+    when
+        aioData : AIOData(humidity != null, humidity>=20, humidity<=80);
+        aioDataParsed : AIODataParsed();
+    then
+        aioDataParsed.setHumidity("优");
+        System.out.println("规则中打印日志：优!");
+    end
+
+rule "humidity 良"
+    when
+          aioData : AIOData(humidity != null,  10 <= humidity, humidity < 20 ||  80 < humidity, humidity <= 90);
+          aioDataParsed : AIODataParsed();
+      then
+          aioDataParsed.setHumidity("良");
+          System.out.println("规则中打印日志：良!");
+      end
+
+rule "humidity 差"
+    when
+        aioData : AIOData(humidity != null, humidity < 10 || humidity > 90);
+        aioDataParsed : AIODataParsed();
+    then
+        aioDataParsed.setHumidity("差");
+        System.out.println("规则中打印日志：差!");
+    end

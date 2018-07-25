@@ -34,6 +34,7 @@ public class DroolsController {
         address.setPostcode("99425");
 
         AddressCheckResult result = new AddressCheckResult();
+
         kieSession.insert(address);
         kieSession.insert(result);
         int ruleFiredCount = kieSession.fireAllRules();
@@ -45,5 +46,8 @@ public class DroolsController {
         return "触发了" + ruleFiredCount + "条规则";
 
     }
+
+
+
 
 }
