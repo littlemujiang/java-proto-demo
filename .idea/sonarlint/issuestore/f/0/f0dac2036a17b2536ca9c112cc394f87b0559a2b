@@ -1,19 +1,0 @@
-
-Nsquid:S2864"4Iterate over the "entrySet" instead of the "keySet".(¾Öªûÿÿÿÿ
-`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¼Ç“¨
-esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(õš­ƒıÿÿÿÿ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(ã—Åàüÿÿÿÿ
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÿùÏ 
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(¡éÓúûÿÿÿÿ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(¼¯«Ìûÿÿÿÿ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(±¾Ùİúÿÿÿÿ
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÿùÏ 
-Gsquid:S1135"2Complete the task associated to this TODO comment.(©ûåŞ
-lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 34 to the 15 allowed.(Ó×ß‹øÿÿÿÿ
-=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ

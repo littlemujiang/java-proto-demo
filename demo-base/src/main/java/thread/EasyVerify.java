@@ -42,6 +42,14 @@ public class EasyVerify {
 
     public static void main(String[] args){
 
+        String[] sss = {"a", "a"};
+
+        System.out.println(Arrays.toString(sss));
+        System.out.println(sss);
+
+        EasyVerify ev = new EasyVerify();
+        ev.getClass().getDeclaredFields();
+
         Boolean bl = true;
         if(bl){
             System.out.println("AAA");

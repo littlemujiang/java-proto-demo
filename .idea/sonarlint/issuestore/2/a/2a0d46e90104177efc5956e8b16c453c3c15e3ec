@@ -1,55 +1,0 @@
-
-`squid:S2184"FCast one of the operands of this multiplication operation to a "long".(Úåì¡úÿÿÿÿ
-[squid:S2184"FCast one of the operands of this multiplication operation to a "long".(­ÄÏ™
-`squid:S2184"FCast one of the operands of this multiplication operation to a "long".(Úåì¡úÿÿÿÿ
-asquid:UnusedPrivateMethod"9Remove this unused private "produceEvent2Channel" method.(®¶ñåþÿÿÿÿ
-asquid:UnusedPrivateMethod"9Remove this unused private "produceEvent1Channel" method.(æ²ªêøÿÿÿÿ
-Tsquid:UnusedPrivateMethod"2Remove this unused private "produceEvent0" method.(ËÄ±Y
-<squid:S2189""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ
-<squid:S2189""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ
-`squid:S1192"KDefine a constant instead of duplicating this literal "deviceid-2" 3 times.(öúë­
-`squid:S1192"KDefine a constant instead of duplicating this literal "deviceid-1" 3 times.(ïÎ¡þ
-dsquid:S1192"JDefine a constant instead of duplicating this literal "send hb @" 3 times.(š÷ó‘øÿÿÿÿ
-`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¡ç„µ
-esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Éå§ýúÿÿÿÿ
-esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ùå‰»úÿÿÿÿ
-esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¡Æüˆÿÿÿÿÿ
-esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¥ÆœÚÿÿÿÿÿ
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ð“©À
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(ùÑƒ¥
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(¸Àƒ¥üÿÿÿÿ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(š÷ó‘øÿÿÿÿ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(š÷ó‘øÿÿÿÿ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(š÷ó‘øÿÿÿÿ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ï¹Åèÿÿÿÿÿ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(£öÅ¦ýÿÿÿÿ
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(ù‘óƒ
-1squid:S1220""Move this file to a named package.
-=squid:S1481")Remove this unused "flag" local variable.(ŒÖý$
-@squid:S1481",Remove this unused "pattern" local variable.(Ø½˜-
-Gsquid:S1481"-Remove this unused "pattern2" local variable.(ÄÕ©”þÿÿÿÿ
-Vsquid:S1854"<Remove this useless assignment to local variable "pattern2".(ÄÕ©”þÿÿÿÿ
-Osquid:S1854";Remove this useless assignment to local variable "pattern".(Ø½˜-
-gsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹‡­ò
-gsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹‡­ò
-gsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹‡­ò
-Ksquid:S1153"1Directly append the argument of String.valueOf().(š÷ó‘øÿÿÿÿ
-Ksquid:S1153"1Directly append the argument of String.valueOf().(š÷ó‘øÿÿÿÿ
-Ksquid:S1153"1Directly append the argument of String.valueOf().(š÷ó‘øÿÿÿÿ
-zsquid:UselessImportCheck"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡ž¸Îùÿÿÿÿ
-„squid:UselessImportCheck"]Remove this unused import 'org.springframework.data.redis.connection.RedisConnectionFactory'.(¬ÜôÍúÿÿÿÿ
-msquid:UselessImportCheck"KRemove this unused import 'org.springframework.context.ApplicationContext'.(»Ô»¿
-‡squid:UselessImportCheck"fRemove this unused import 'org.springframework.context.annotation.AnnotationConfigApplicationContext'.(€¡¹;
-xsquid:UselessImportCheck"QRemove this unused import 'org.springframework.context.annotation.ComponentScan'.(æëòÒûÿÿÿÿ
-xsquid:UselessImportCheck"QRemove this unused import 'org.springframework.context.annotation.Configuration'.(¬²Úäþÿÿÿÿ
-=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ

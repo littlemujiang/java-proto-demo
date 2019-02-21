@@ -3,8 +3,8 @@ package drools;/*
  */
 
 
-import drools.adapter.rule.AIOData;
-import drools.adapter.rule.AIODataParsed;
+import drools.adapter.rules.AIOData;
+import drools.adapter.rules.AIODataParsed;
 import org.kie.api.KieServices;
 import org.kie.api.builder.KieBuilder;
 import org.kie.api.builder.KieFileSystem;

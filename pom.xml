@@ -21,9 +21,9 @@
         <module>demo-webbase</module>
         <module>demo-base</module>
         <module>demo-citic</module>
-        <module>demo-springboot</module>
         <module>demo-springdata-neo4j</module>
         <module>demo-drools</module>
+        <module>demo-socket</module>
     </modules>
 
     <!--<parent>-->

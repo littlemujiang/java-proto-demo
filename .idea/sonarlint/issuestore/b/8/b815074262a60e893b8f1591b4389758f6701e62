@@ -1,6 +1,0 @@
-
-lsquid:S00116"QRename this field "app_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ââ×¶þÿÿÿÿ
-isquid:S00116"SRename this field "app_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áìòå
-usquid:S00116"ZRename this field "app_description" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÖó…ÿÿÿÿÿ
-ksquid:S00116"URename this field "created_at" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Üœæè
-lsquid:S00116"VRename this field "modified_at" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ¿²Æ

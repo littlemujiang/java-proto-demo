@@ -1,20 +1,0 @@
-
-Xsquid:S2276"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(öÍËè
-Gsquid:S3067"-Synchronize on the static class name instead.(®Á››üÿÿÿÿ
-€squid:S1319"kThe type of the "map" object should be an interface such as "Map" rather than the implementation "HashMap".(õçáŠ
-‡squid:S1319"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(é—ù§ýÿÿÿÿ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(“ƒÈŽûÿÿÿÿ
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(ù„Ÿé
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(žñŽ‘þÿÿÿÿ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(çèŒ–þÿÿÿÿ
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÙúßÉ
-[squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
-[squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
-Qsquid:UselessImportCheck"*Remove this unused import 'java.util.Map'.(¼è½Òþÿÿÿÿ
-=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ

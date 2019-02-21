@@ -1,26 +1,0 @@
-
-Ysquid:S1854"?Remove this useless assignment to local variable "writeResult".(øĞ˜Îùÿÿÿÿ
-`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ğÆªÅ
-Vsquid:UnusedPrivateMethod".Remove this unused private "insertDoc" method.(è¿£ìÿÿÿÿÿ
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(öƒÈ×
-esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ïÿ…¿üÿÿÿÿ
-Jsquid:S1481"0Remove this unused "requestBody" local variable.(—²æÍıÿÿÿÿ
-Jsquid:S1481"0Remove this unused "writeResult" local variable.(øĞ˜Îùÿÿÿÿ
-esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Áç–´üÿÿÿÿ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(Œ„Òıÿÿÿÿ
-=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(ºå‡É
-Gsquid:S1135"2Complete the task associated to this TODO comment.(©ûåŞ
-`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ä¥Ê÷
-`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‡èô·
-[squid:UselessImportCheck"9Remove this unused import 'netscape.javascript.JSObject'.(Å²ÒÌ
-`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(•¬Û…
-Wsquid:UselessImportCheck"5Remove this unused import 'com.mongodb.WriteConcern'.(š´äÓ
-Qsquid:UnusedPrivateMethod".Remove this unused private "updateDoc" method.(ñ‡÷ç
-`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(æ€Ãı
-jsquid:S2068"U'password' detected in this expression, review this potentially hardcoded credential.(ş®çé
-_squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ùŒß7
-`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(éßÚ›

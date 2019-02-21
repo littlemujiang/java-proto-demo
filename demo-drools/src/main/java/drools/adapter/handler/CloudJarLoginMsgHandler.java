@@ -40,12 +40,14 @@ public class CloudJarLoginMsgHandler extends AbstractMsgHandler{
 
         String mac = parseMac(msgQue);
 
-        device.setMAC(mac);
+        device.setMAC(mac.toUpperCase());
+
+        System.out.println(msgQue.toString());
 
     }
 
     @Override
-    public byte[] buildResponse(){
+    public ArrayList<Integer>  buildResponse(){
 // int[] loginMsg = {85,0,23,1,1,2,1,1,20,18,7,13,0,1,11,10,0,0,-56,-109,70,-58,77,-120,-87,-1};
         ArrayList<Integer> response = new ArrayList<Integer>();
 //帧头
@@ -54,7 +56,7 @@ public class CloudJarLoginMsgHandler extends AbstractMsgHandler{
         //消息长度：int2
         response.add(0);
         response.add(17);
-        //消息版本号`
+        //消息版本号
         response.add(1);
 
         //消息类型（登录响应：11）
@@ -72,25 +74,38 @@ public class CloudJarLoginMsgHandler extends AbstractMsgHandler{
         for(int i = 2; i < response.size(); i++){
             sum = sum + response.get(i);
         }
+        String sumString = Integer.toHexString(sum);
+        if(sumString.length() > 2){
+            Integer.toHexString(sum).substring(1,3);
+            sumString = sumString.substring(sumString.length()-2,sumString.length());
+            sum = Integer.parseInt(sumString, 16);
+        }
         response.add(sum);
+
 //帧尾
         response.add(255);
 
-        byte[] resp = new byte[response.size()];
-
-        for(int i =0; i< response.size(); i++){
-            resp[i] = (byte) response.get(i).intValue();
-        }
-
-        return resp;
+        return response;
+//        return response.toString().substring(1, response.size()-1);
+//        byte[] resp = new byte[response.size()];
+//
+//        for(int i =0; i< response.size(); i++){
+//            resp[i] = (byte) response.get(i).intValue();
+//        }
+//
+//        return resp;
     }
 
 
 
     private String parseMac(ArrayDeque<Integer> msgQue){
 
-
-        return  "0050568543FF";
+        return  Integer.toHexString(msgQue.pop()) +
+        Integer.toHexString(msgQue.pop()) +
+        Integer.toHexString(msgQue.pop()) +
+        Integer.toHexString(msgQue.pop()) +
+        Integer.toHexString(msgQue.pop()) +
+        Integer.toHexString(msgQue.pop()) ;
 
     }
 

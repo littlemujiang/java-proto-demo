@@ -1,6 +1,0 @@
-
-rsquid:UselessImportCheck"DRemove this unused import 'org.springframework.data.domain.Example'.(³˜œÍüÿÿÿÿ8ÿÇÌÀª,
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8ÿÇÌÀª,
-Vsquid:UselessImportCheck"(Remove this unused import 'lombok.Data'.(÷í«ÿÿÿÿÿ8ÿÇÌÀª,
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(îîâµøÿÿÿÿ8ÿÇÌÀª,
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8ÿÇÌÀª,

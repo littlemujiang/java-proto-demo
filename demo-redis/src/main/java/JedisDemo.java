@@ -5,6 +5,9 @@ import org.springframework.stereotype.Component;
 import redis.clients.jedis.Jedis;
 import utils.JedisManager;
 
+import java.util.Map;
+import java.util.Random;
+
 /**
  * Created by mujiang on 2017/9/22.
  */
@@ -76,19 +79,67 @@ public class JedisDemo {
     }
 
 
+    public void queryBatch(){
+        jedisManager = getJedisManager();
+        Jedis jedis = jedisManager.getJedis();
+        jedis.select(1);
+
+        String[] keyList = {"a_6pZCl/6qH2A/p_6qH7U","a_pipelineTestId/6lajn/p_6lajp"};
+//        Map<String,String> content = jedis.hmget("mqttTopicState", keyList);
+//        String a = jedis.hget("connDeviceList","1bad87881aaa4d729b544117c73db8b");
+        String a = jedis.hget("deviceMsgInterval","1bad87881aaa4d729b54411");
+
+        System.out.println("transfer done:" + a );
+    }
+
+    public void hdel(){
+        jedisManager = getJedisManager();
+        Jedis jedis = jedisManager.getJedis();
+        jedis.select(1);
+
+        String key = "flagDeviceList";
+        String field = "54f7bbb8023f419c8d8bd3c805f25d19";
+        jedis.hdel(key, field);
+
+        System.out.println("hdel done: " + field );
+    }
+
+
+    public void transferContent(){
+        jedisManager = getJedisManager();
+        Jedis jedis = jedisManager.getJedis();
+        jedis.select(0);
+        Map<String,String> content = jedis.hgetAll("topicClientIdMqttMapV2");
+        for(String key : content.keySet()){
+            jedis.hset("mqttTopicServer", key, "172.28.70.4:6016");
+        }
+        System.out.println("transfer done");
+    }
+
+
 
 
     public static void main(String[] args){
 
         JedisDemo jedisDemo =  new JedisDemo();
+
+//        jedisDemo.transferContent();
+//        jedisDemo.queryBatch();
 //        jedisDemo.insertInfo();
 
-        try {
-            Thread.sleep(1000);
-            jedisDemo.produceEvent();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        jedisDemo.hdel();
+
+
+        System.out.println(new Random().nextBoolean());
+
+//        try {
+//            Thread.sleep(1000);
+//            jedisDemo.produceEvent();
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
+
+
 
 
 

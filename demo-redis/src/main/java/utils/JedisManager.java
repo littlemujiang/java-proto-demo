@@ -30,9 +30,22 @@ public class JedisManager {
 //    @Value("${gateway.redis.jedis.auth}")
 //    private String auth;
 
-    private String ip = "localhost";
+////    private String ip = "localhost";
+
+    //test
+    private String ip = "10.76.3.66";
     private int port = 6379;
-    private String auth;
+    private String auth = "redis123";
+
+//    //beta
+//    private String ip = "r-2jde4fd4fcb573f4.redis.rds.aliyuncs.com";
+//    private int port = 6379;
+//    private String auth = "Citic12345";
+
+//    //prod
+//    private String ip = "10.76.2.62";
+//    private int port = 6379;
+//    private String auth = "Citic12345";
 
 //    private  String ip;
 //    private  int port=6379;

@@ -8,10 +8,13 @@ package drools.adapter;
 import drools.adapter.handler.AbstractMsgHandler;
 import drools.adapter.handler.CloudJarDataMsgHandler;
 import drools.adapter.handler.CloudJarLoginMsgHandler;
+import drools.adapter.handler.MicroClimateDataMsgHandler;
+import drools.adapter.mqtt.IOTMqttClient;
 import drools.adapter.util.ParseUtil;
 import lombok.Data;
 
 import java.util.ArrayList;
+import java.util.StringTokenizer;
 
 /**
  * Simple to Introduction
@@ -35,10 +38,11 @@ public class CloudJarAdapter {
 
     private int frameEnd;
 
-    public byte[] resp;
+    public ArrayList<Integer> resp;
+
+    private IOTMqttClient mqttClient = new IOTMqttClient();
 
     private void splitMsg(int[] msg){
-
 
 //        List<Integer> msgL =  Arrays.asList(loginMsg);
 
@@ -53,7 +57,16 @@ public class CloudJarAdapter {
         frameEnd = msg[msg.length-1];
     }
 
-    private void handleMsg(){
+
+    public void handleMsg(int[] msgOrigin){
+
+        splitMsg(msgOrigin);
+
+        handleBody(msgBody);
+
+    }
+
+    private void handleBody(ArrayList<Integer> msgBody){
 
         AbstractMsgHandler msgHandler = null;
 
@@ -69,103 +82,34 @@ public class CloudJarAdapter {
 
         msgHandler.handleMsgBody(msgBody);
         resp = msgHandler.buildResponse();
+//        msgHandler.send2IOT(mqttClient);
+//        resp = msgHandler.buildResponse();
 
     }
 
 
-
-
-
     public static void main(String[] args) {
 
-        int[] loginMsg = {85, 0, 23, 1, 1, 2, 1, 1, 20, 18, 7, 13, 0, 1, 11, 10, 0, 0, -56, -109, 70, -58, 77, -120, -87, -1};
-        String loginMsgString = "[85,0,23,1,1,2,1,1,20,18,7,13,0,1,11,10,0,0,-56,-109,70,-58,77,-120,-87,-1]";
-//        int[] dataMsg  = {85,0,68,1,2,5,2,3,20,18,1,6,0,1,16,16,0,0,1,2,18,7,16,19,7,7,1,39,54,0,0,8,-12,116,30,0,0,99,116,0,0,0,0,0,0,0,0,0,0,0,0,2,-12,3,2,0,0,0,0,0,1,-122,75,0,0,0,0,0,117,-15,-1};
-        int[] dataMsg  = {
-                85,
-        0,
-                68,
-                1,
-                2,
-                5,
-                2,
-                3,
-                20,
-                18,
-                1,
-                6,
-                0,
-                1,
-                16,
-                16,
-                0,
-                0,
-                1,
-                2,
-                18,
-                7,
-                23,
-                17,
-                23,
-                36,
-                1,
-                39,
-                54,
-                0,
-                0,
-                13,
-                -128,
-                116,
-                30,
-                0,
-                0,
-                104,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                2,
-                -55,
-                3,
-                9,
-                0,
-                0,
-                0,
-                63,
-                0,
-                1,
-                -123,
-                -110,
-                0,
-                0,
-                0,
-                0,
-                0,
-                117,
-                -90,
-                -1
-    } ;
+        String dataMsg = "[55, 00, 44, 01, 02, 05, 02, 03, 14, 12, 01, 06, 00, 01, 10, 10, 00, 00, 01, 02, 12, 07, 1f, 09, 21, " +
+                "24, 01, 27, 36, 00, 00, 10, e2, 74, 1e, 00, 00, 6b, 62, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 02, " +
+                "f7, 03, 15, 00, 00, 00, cf, 00, 01, 86, 9c, 00, 00, 00, 00, 00, 75, 4f, ff]";
+
+        String dataMsg2 = "[55, 00, 44, 01, 02, 05, 02, 03, 14, 12, 01, 06, 00, 01, 10, 10, 00, 00, 01, 02, 12, 07, 1f, 12, " +
+                "13, 0f, 01, 27, 36, 00, 00, 07, 0a, 74, 1e, 00, 00, 61, 8a, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, " +
+                "00, 02, ce, 03, 0b, 00, 00, 00, 33, 00, 01, 85, 9e, 00, 00, 00, 00, 00, 75, a4, ff]";
+
+        String loginMsg  =
+                "[55, 00, 17, 01, 01, 02, 01, 01, 14, 12, 07, 0d, 00, 02, 0b, 0a, 00, 00, c8, 93, 46, c6, 4c, bd, de, ff]";
+
+        String loginMsg2  ="[55, 00, 17, 01, 01, 02, 01, 01, 14, 12, 07, 0d, 00, 01, 0b, 0a, 00, 00, c8, 93, 46, c6, 4d, 88, a9, ff]";
 
         CloudJarAdapter cjm = new CloudJarAdapter();
-//        cjm.splitMsg(loginMsg);
-        cjm.splitMsg(dataMsg);
-        cjm.handleMsg();
 
+        cjm.handleMsg(ParseUtil.dataPreProccess(loginMsg2));
 
-
+        System.out.println("done");
 
         System.out.println(cjm);
-
-
 
     }
 

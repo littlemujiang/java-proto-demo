@@ -24,22 +24,22 @@ public class ParseUtil {
 //
 //    }
 
+//    public static int combineData(int ... items){
+//
+//        int flag = 1;
+//        StringBuilder s = new StringBuilder();
+//
+//        for(int item : items){
+//            if(item < 0){
+//                flag *= -1;
+//                item = -item;
+//            }
+//            s.append(String.format("%02x",item));
+//        }
+//        return  Integer.parseInt(s.toString(),16) * flag;
+//    }
+
     public static int combineData(int ... items){
-
-        int flag = 1;
-        StringBuilder s = new StringBuilder();
-
-        for(int item : items){
-            if(item < 0){
-                flag *= -1;
-                item = -item;
-            }
-            s.append(String.format("%02x",item));
-        }
-        return  Integer.parseInt(s.toString(),16) * flag;
-    }
-
-    public static int combineData4Location(int ... items){
         StringBuilder s = new StringBuilder();
         for(int item : items){
             s.append(String.format("%02x",item));
@@ -47,8 +47,19 @@ public class ParseUtil {
         return  Integer.parseInt(s.toString(),16);
     }
 
+    public static int[] dataPreProccess(String msg){
+        String[] msgStr = msg.substring(1, msg.length()-1).split(",");
+
+        int[] msgInt = new int[msgStr.length];
+
+        for(int i=0; i<msgStr.length; i++){
+            msgInt[i] = Integer.parseInt(msgStr[i].trim(), 16);
+        }
+        return msgInt;
+    }
+
     public static void main(String[] args) {
-        int a  = ParseUtil.combineData4Location(0,1,2,118);
+        int a  = ParseUtil.combineData(0,1,2,118);
         System.out.println( a);
 
     }

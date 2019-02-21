@@ -1,16 +1,0 @@
-
-Msquid:S1481"2Remove this unused "deviceExample" local variable.(ù¤¾[8ÈÖÝÁª,
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ŽÄ‡â8ÈÖÝÁª,
-@squid:S2629"$Invoke method(s) only conditionally.(·‰ï¢8ÈÖÝÁª,
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Â™¦²8ÈÖÝÁª,
-@squid:S2629"$Invoke method(s) only conditionally.(†ÃèŠ8ÈÖÝÁª,
-@squid:S2629"$Invoke method(s) only conditionally.(·‰ï¢8ÈÖÝÁª,
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‡²ÊÈþÿÿÿÿ8ÈÖÝÁª,
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(²–ãð8ÈÖÝÁª,
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ØÓÐŽøÿÿÿÿ8ÈÖÝÁª,
-\squid:S1854"ARemove this useless assignment to local variable "deviceExample".(ù¤¾[8ÈÖÝÁª,
-@squid:S2629"$Invoke method(s) only conditionally.(·‰ï¢8ÈÖÝÁª,
-¹squid:S1192"œDefine a constant instead of duplicating this literal "* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *" 8 times.(€™žà8ÈÖÝÁª,
-qsquid:UselessImportCheck"CRemove this unused import 'org.neo4j.ogm.response.model.NodeModel'.(†Ó½¾ûÿÿÿÿ8ÈÖÝÁª,
-Xsquid:UselessImportCheck"*Remove this unused import 'java.util.Map'.(¼è½Òþÿÿÿÿ8Ë™áÁª,
-\squid:UselessImportCheck".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8ª†àÁª,

@@ -45,7 +45,7 @@ public class AbstractMsgHandler {
 
 
 
-    public  byte[]  buildResponse( ){
+    public ArrayList<Integer>  buildResponse( ){
         return null;
     }
 
